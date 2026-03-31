@@ -260,27 +260,25 @@ function exportDossier() {
     
     const element = document.getElementById('result-card');
     
-    // TEMPORARY FIX: html2canvas hates glassmorphism (backdrop-filter) and renders it black.
-    // We add a solid background class temporarily just for the PDF rendering.
-    const originalBg = element.style.background;
-    const originalFilter = element.style.backdropFilter;
-    
-    element.style.background = '#0a0a0a';
-    element.style.backdropFilter = 'none';
+    // TEMPORARY FIX: html2canvas notoriously struggles with backdrop-filters and renders pure black
+    element.style.setProperty('background', '#0a0a0a', 'important');
+    element.style.setProperty('backdrop-filter', 'none', 'important');
+    element.style.setProperty('-webkit-backdrop-filter', 'none', 'important');
     
     const opt = {
-        margin:       0.5,
+        margin:       0.3,
         filename:     'KGI_Valuation_Dossier.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505', logging: false },
+        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505', logging: false, removeContainer: true },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
 
     html2pdf().set(opt).from(element).save().then(() => {
         btn.textContent = "DOWNLOAD PDF DOSSIER";
         // Restore glassmorphism
-        element.style.background = originalBg;
-        element.style.backdropFilter = originalFilter;
+        element.style.removeProperty('background');
+        element.style.removeProperty('backdrop-filter');
+        element.style.removeProperty('-webkit-backdrop-filter');
     });
 }
 
@@ -318,8 +316,10 @@ const geoBank = {
 function updateMapLocation(locString) {
     if(!mapInstance) return;
     
-    // FIX: Leaflet occasionally doesn't draw tiles if its container changed size or was hidden during init
-    mapInstance.invalidateSize();
+    // FIX: Wait for CSS transition / DOM reveal to complete before recalculating map size, otherwise it stays invisible height 0
+    setTimeout(() => {
+        mapInstance.invalidateSize();
+    }, 400);
     
     const loc = locString.toLowerCase();
     
