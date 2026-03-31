@@ -1,0 +1,107 @@
+{
+  "model_results": {
+    "Linear Regression": {
+      "r2": 0.6122,
+      "mae": 6461554.04,
+      "mse": 71978419094077.39,
+      "rmse": 8484009.61,
+      "cv_mean": 0.6437,
+      "cv_std": 0.0088
+    },
+    "Decision Tree": {
+      "r2": 0.4785,
+      "mae": 6713099.05,
+      "mse": 96804807851632.22,
+      "rmse": 9838943.43,
+      "cv_mean": 0.5701,
+      "cv_std": 0.0656
+    },
+    "Random Forest": {
+      "r2": 0.7252,
+      "mae": 5308243.53,
+      "mse": 51002359992686.75,
+      "rmse": 7141593.66,
+      "cv_mean": 0.7719,
+      "cv_std": 0.0169
+    }
+  },
+  "best_model": "Random Forest",
+  "feature_importance": {
+    "area": 0.2774,
+    "property_age": 0.2372,
+    "location": 0.1616,
+    "total_rooms": 0.132,
+    "bedrooms": 0.0986,
+    "stories": 0.0161,
+    "prefarea": 0.0159,
+    "furnishingstatus": 0.0149,
+    "parking": 0.0107,
+    "bathrooms": 0.0073,
+    "guestroom": 0.0069,
+    "basement": 0.006,
+    "airconditioning": 0.0055,
+    "mainroad": 0.0054,
+    "hotwaterheating": 0.0043
+  },
+  "feature_columns": [
+    "area",
+    "bedrooms",
+    "bathrooms",
+    "stories",
+    "mainroad",
+    "guestroom",
+    "basement",
+    "hotwaterheating",
+    "airconditioning",
+    "parking",
+    "prefarea",
+    "furnishingstatus",
+    "location",
+    "property_age",
+    "total_rooms"
+  ],
+  "locations": [
+    "Adyar",
+    "Alipore",
+    "Andheri West",
+    "Anna Nagar",
+    "Bandra West",
+    "Banjara Hills",
+    "Boat Club",
+    "Cyber City",
+    "Defence Colony",
+    "Dwarka",
+    "Gachibowli",
+    "Greater Kailash",
+    "HITEC City",
+    "Hauz Khas",
+    "Indiranagar",
+    "Jayanagar",
+    "Jubilee Hills",
+    "Juhu",
+    "Kalyani Nagar",
+    "Koramangala",
+    "Koregaon Park",
+    "Poes Garden",
+    "Powai",
+    "Salt Lake",
+    "South Mumbai",
+    "Vasant Vihar",
+    "Whitefield"
+  ],
+  "furnishing_types": [
+    "furnished",
+    "semi-furnished",
+    "unfurnished"
+  ],
+  "dataset_shape": [
+    1200,
+    15
+  ],
+  "price_stats": {
+    "min": 8587046,
+    "max": 89563751,
+    "mean": 37329339,
+    "median": 35622649
+  }
+}

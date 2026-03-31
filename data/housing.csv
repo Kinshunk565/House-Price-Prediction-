@@ -1,0 +1,1201 @@
+price,area,bedrooms,bathrooms,stories,mainroad,guestroom,basement,hotwaterheating,airconditioning,parking,prefarea,furnishingstatus,location,property_age
+45077615,3779,4,4,4,yes,yes,no,yes,yes,2,no,furnished,Koregaon Park,11
+48926496,3581,4,3,3,yes,no,yes,no,yes,1,yes,semi-furnished,Greater Kailash,2
+37986865,3928,4,4,4,yes,no,no,no,no,3,no,semi-furnished,Hauz Khas,19
+29197819,2948,3,3,1,yes,no,no,no,yes,3,no,semi-furnished,Alipore,22
+48758711,3740,4,4,2,yes,yes,no,no,yes,3,no,furnished,Hauz Khas,10
+19833109,3309,4,3,4,yes,yes,yes,no,no,1,no,semi-furnished,Salt Lake,25
+21124305,1882,2,2,4,no,no,yes,no,no,1,yes,furnished,Gachibowli,8
+21667469,2781,3,3,1,yes,no,yes,no,no,1,yes,semi-furnished,Gachibowli,22
+53907426,3730,4,4,4,yes,yes,no,no,yes,2,yes,furnished,Poes Garden,23
+21151411,1598,2,2,2,yes,yes,no,yes,yes,0,no,semi-furnished,Greater Kailash,11
+40019906,3709,4,4,2,no,yes,no,no,yes,2,yes,semi-furnished,Cyber City,11
+39978185,3725,4,3,3,yes,yes,no,no,yes,3,no,furnished,Defence Colony,25
+28941875,2464,3,2,3,yes,no,no,yes,no,1,yes,unfurnished,Adyar,3
+20303037,2139,2,2,2,no,no,no,yes,no,3,no,semi-furnished,Salt Lake,1
+36138823,3644,4,4,3,yes,yes,yes,no,yes,2,no,furnished,Koregaon Park,25
+36323510,3904,4,4,2,yes,yes,no,no,no,3,no,furnished,Kalyani Nagar,17
+61682552,3417,4,4,2,yes,yes,yes,yes,yes,2,yes,unfurnished,Juhu,5
+33143846,2861,3,2,3,yes,yes,yes,no,yes,3,no,semi-furnished,Defence Colony,20
+24584916,2708,3,2,1,yes,no,no,no,yes,2,no,semi-furnished,Adyar,15
+31953953,2695,3,3,2,yes,yes,yes,no,yes,2,no,furnished,Gachibowli,6
+34403489,2705,3,2,1,yes,no,no,no,yes,3,yes,unfurnished,Bandra West,15
+20666572,2927,3,3,4,no,no,no,yes,yes,1,no,furnished,Cyber City,25
+23506724,1961,2,1,2,no,yes,no,no,yes,2,yes,semi-furnished,Greater Kailash,14
+30047469,2902,3,3,2,no,yes,no,no,yes,2,no,semi-furnished,Koramangala,13
+25134640,1924,2,1,1,yes,yes,yes,no,no,1,no,furnished,Juhu,17
+49914062,3450,4,4,3,yes,yes,yes,yes,yes,2,yes,semi-furnished,Koregaon Park,4
+39036122,2402,3,2,4,no,no,yes,yes,no,3,no,unfurnished,Boat Club,8
+31489872,3855,4,4,3,yes,no,no,no,yes,2,yes,semi-furnished,Whitefield,19
+37088388,2812,3,3,3,no,yes,yes,yes,yes,2,yes,furnished,HITEC City,4
+38974476,3703,4,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Jubilee Hills,18
+39522931,3043,3,3,1,yes,yes,yes,no,no,3,no,semi-furnished,Boat Club,23
+27114490,3134,4,3,3,yes,no,no,no,yes,1,no,furnished,Alipore,29
+60920145,5366,6,5,4,yes,no,yes,yes,yes,2,no,unfurnished,Powai,0
+42372493,2980,3,2,1,yes,no,yes,no,yes,3,yes,semi-furnished,Poes Garden,21
+19009695,2743,3,2,1,no,no,yes,no,yes,3,no,unfurnished,Greater Kailash,27
+37514197,2948,3,3,2,yes,yes,no,yes,yes,2,no,furnished,Greater Kailash,9
+40801013,2803,3,3,1,no,yes,no,no,yes,2,no,furnished,Hauz Khas,3
+29442704,3396,4,3,3,yes,yes,yes,yes,yes,2,no,unfurnished,Salt Lake,10
+43897971,3640,4,4,4,yes,yes,no,no,yes,1,no,semi-furnished,Cyber City,1
+29781661,2762,3,3,3,yes,yes,yes,no,yes,3,yes,semi-furnished,Andheri West,16
+19786286,2013,2,2,2,yes,no,yes,no,no,2,no,semi-furnished,Juhu,22
+47125581,4518,5,4,4,yes,no,no,yes,yes,3,yes,semi-furnished,Indiranagar,14
+66145551,4558,5,5,3,yes,yes,no,no,yes,2,no,unfurnished,Defence Colony,0
+40457945,4399,5,4,4,no,no,no,no,yes,3,no,unfurnished,Andheri West,8
+50014657,3754,4,4,3,yes,no,no,no,yes,3,yes,furnished,Poes Garden,27
+33973152,4402,5,4,3,yes,no,no,no,yes,2,yes,unfurnished,Gachibowli,24
+42635155,5309,6,5,4,yes,yes,no,no,yes,3,no,unfurnished,Anna Nagar,28
+37397002,4729,5,5,2,yes,no,no,no,yes,3,no,unfurnished,Whitefield,16
+51829134,5487,6,5,4,yes,yes,no,yes,yes,1,no,semi-furnished,Koregaon Park,22
+41996465,2844,3,3,1,yes,yes,no,no,yes,3,no,semi-furnished,Poes Garden,17
+39307360,3784,4,4,3,yes,yes,no,no,yes,2,no,furnished,Gachibowli,6
+18773446,2646,3,3,2,yes,no,no,no,yes,3,no,furnished,Salt Lake,22
+40235867,3879,4,4,3,no,yes,no,yes,no,2,no,semi-furnished,Powai,6
+49079924,4840,5,4,3,no,no,yes,no,yes,3,yes,furnished,Cyber City,14
+37972199,2755,3,3,2,yes,yes,yes,no,yes,1,yes,semi-furnished,Bandra West,16
+23888981,3013,3,2,3,yes,yes,no,yes,yes,3,no,furnished,Dwarka,12
+30725047,3328,4,3,2,yes,yes,yes,no,yes,1,no,semi-furnished,Andheri West,16
+32985946,3363,4,3,3,yes,yes,no,no,yes,1,yes,semi-furnished,Greater Kailash,24
+28507980,2866,3,2,1,yes,yes,yes,yes,yes,2,no,unfurnished,Whitefield,7
+56441560,3586,4,4,3,yes,yes,no,no,yes,2,yes,furnished,Defence Colony,7
+30777124,3659,4,4,4,yes,no,no,no,yes,1,yes,unfurnished,Powai,26
+19103855,1845,2,2,2,no,no,no,no,no,1,no,semi-furnished,Kalyani Nagar,6
+31063038,2963,3,2,1,no,yes,no,no,yes,2,yes,unfurnished,Greater Kailash,16
+29233130,2830,3,2,1,yes,yes,yes,no,yes,3,yes,semi-furnished,Jubilee Hills,26
+36166762,4018,4,4,3,yes,no,yes,no,yes,3,no,semi-furnished,Hauz Khas,28
+36827212,3164,3,3,2,yes,no,no,no,yes,3,yes,furnished,Andheri West,6
+56515766,5149,6,5,4,yes,no,yes,no,yes,1,yes,semi-furnished,Powai,10
+45197856,5121,6,5,2,yes,yes,yes,yes,yes,3,no,semi-furnished,Gachibowli,17
+35873590,3699,4,4,3,yes,yes,no,no,yes,3,no,semi-furnished,Cyber City,17
+34136794,3139,3,3,2,yes,no,yes,no,yes,3,no,semi-furnished,HITEC City,7
+30170962,3107,3,2,1,no,no,no,no,yes,3,yes,furnished,Jayanagar,15
+41095241,5392,6,5,2,yes,yes,no,yes,yes,3,no,furnished,Gachibowli,27
+28845586,2964,3,2,1,yes,yes,yes,no,yes,3,no,furnished,Indiranagar,21
+29136523,2830,3,3,3,yes,yes,no,no,yes,2,yes,furnished,Banjara Hills,24
+37939673,4589,5,5,3,yes,no,no,no,yes,2,no,semi-furnished,Jayanagar,21
+58822197,3880,4,4,2,yes,no,no,no,yes,3,yes,furnished,Boat Club,22
+21214117,1485,2,1,3,no,no,no,no,yes,0,no,furnished,Kalyani Nagar,2
+29439221,2887,3,2,1,yes,yes,no,no,yes,3,no,furnished,Gachibowli,10
+45533871,3490,4,3,4,yes,no,yes,yes,yes,1,yes,furnished,Juhu,23
+34094080,2844,3,3,3,yes,yes,no,no,yes,3,yes,furnished,Jayanagar,12
+57198983,3336,4,3,2,yes,yes,no,no,yes,2,yes,semi-furnished,South Mumbai,18
+40480616,4351,5,4,3,yes,yes,no,no,yes,2,no,furnished,HITEC City,17
+34274658,3983,4,4,3,yes,yes,no,no,yes,2,no,furnished,Cyber City,24
+42479967,3623,4,3,4,yes,yes,yes,no,yes,3,no,semi-furnished,Poes Garden,29
+48222981,3800,4,4,2,yes,no,yes,no,yes,3,yes,furnished,Jayanagar,2
+31968242,1794,2,2,4,yes,no,yes,no,yes,1,yes,semi-furnished,Bandra West,8
+23799396,2763,3,3,1,yes,yes,no,no,no,2,no,furnished,Banjara Hills,23
+35386694,3923,4,4,4,yes,yes,yes,no,yes,3,yes,unfurnished,Banjara Hills,29
+14075928,1832,2,2,3,no,no,no,no,no,1,no,unfurnished,Hauz Khas,16
+51181401,3134,4,3,3,yes,no,no,no,yes,1,yes,furnished,Poes Garden,15
+19197956,2556,3,2,1,no,no,no,no,yes,1,no,furnished,Adyar,21
+30644780,2181,2,2,2,yes,no,no,no,yes,3,yes,semi-furnished,Anna Nagar,4
+47993419,3071,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Defence Colony,2
+23118832,2735,3,2,1,no,no,no,no,yes,3,no,semi-furnished,Indiranagar,18
+58029883,2787,3,3,4,yes,yes,no,no,yes,1,no,semi-furnished,Boat Club,1
+27108365,2479,3,2,2,no,no,no,no,no,1,yes,furnished,South Mumbai,27
+24676696,3003,3,3,1,yes,yes,no,yes,yes,3,no,furnished,Banjara Hills,29
+54383433,2956,3,3,2,yes,yes,no,no,yes,3,yes,unfurnished,Poes Garden,8
+27489062,2852,3,3,2,yes,yes,no,no,yes,3,no,furnished,Gachibowli,15
+23315825,1713,2,2,2,yes,no,no,no,yes,0,no,unfurnished,Vasant Vihar,14
+49990741,4385,5,5,3,yes,no,no,yes,yes,2,no,semi-furnished,Cyber City,1
+32222906,2586,3,3,4,yes,yes,no,no,yes,2,no,semi-furnished,Alipore,15
+56975589,4589,5,5,3,yes,yes,no,yes,yes,3,no,semi-furnished,Banjara Hills,1
+37217756,3685,4,4,3,yes,yes,yes,no,yes,3,no,unfurnished,Gachibowli,7
+29673068,3020,3,3,3,yes,yes,yes,no,yes,3,yes,semi-furnished,Gachibowli,17
+34742970,3654,4,4,3,yes,yes,yes,no,yes,2,no,unfurnished,Koregaon Park,23
+76314516,4656,5,5,3,yes,yes,no,no,no,3,yes,furnished,Boat Club,15
+35608506,2887,3,3,2,yes,yes,no,no,yes,2,no,semi-furnished,Defence Colony,16
+27132057,2982,3,3,2,yes,yes,yes,no,yes,2,no,unfurnished,Dwarka,3
+36390253,3017,3,2,4,yes,yes,no,no,yes,3,no,semi-furnished,Jayanagar,1
+19290564,3098,3,3,2,yes,yes,yes,no,no,2,no,semi-furnished,Dwarka,20
+17945343,2674,3,2,2,yes,yes,yes,no,yes,3,no,unfurnished,Salt Lake,23
+51795967,2920,3,2,2,no,yes,no,yes,yes,3,no,semi-furnished,Boat Club,6
+37635056,2842,3,3,1,yes,yes,no,no,yes,2,no,furnished,Jayanagar,0
+24818725,2881,3,3,1,yes,no,no,no,yes,2,no,furnished,Salt Lake,11
+50741495,5303,6,5,2,yes,no,no,no,yes,2,no,semi-furnished,Banjara Hills,18
+25598527,2822,3,3,3,yes,yes,yes,no,yes,3,no,semi-furnished,Powai,24
+18988434,1691,2,1,2,no,no,no,no,no,1,no,furnished,Cyber City,5
+52442535,5246,6,5,3,yes,yes,yes,no,yes,3,no,unfurnished,Indiranagar,15
+34467900,3586,4,4,2,no,yes,no,yes,yes,2,yes,furnished,Jayanagar,19
+43284238,3083,3,3,3,yes,yes,yes,no,yes,3,no,semi-furnished,Jubilee Hills,4
+49781167,2634,3,3,4,yes,no,yes,no,yes,3,no,furnished,South Mumbai,13
+39406257,3861,4,3,2,no,yes,no,no,yes,3,no,furnished,Indiranagar,12
+31839625,2538,3,2,1,no,yes,yes,no,yes,2,no,semi-furnished,Hauz Khas,11
+32657393,2610,3,2,2,no,no,no,no,yes,3,no,semi-furnished,Boat Club,20
+25327991,2767,3,3,3,yes,no,no,no,yes,1,no,unfurnished,Koramangala,17
+43088199,2773,3,3,4,yes,no,no,no,yes,2,yes,semi-furnished,Juhu,13
+32632608,3021,3,3,2,no,no,no,no,yes,3,yes,semi-furnished,Defence Colony,22
+59780090,4387,5,4,2,yes,yes,no,no,yes,3,yes,unfurnished,Juhu,19
+35303425,2568,3,2,3,yes,yes,no,no,yes,3,yes,semi-furnished,Greater Kailash,10
+58803995,3465,4,4,2,no,yes,no,no,yes,3,yes,furnished,Boat Club,17
+36159300,2963,3,3,1,yes,yes,no,no,yes,3,yes,unfurnished,Cyber City,8
+24823833,2700,3,2,3,yes,yes,no,no,yes,3,no,semi-furnished,Andheri West,16
+27647624,2855,3,2,3,no,yes,no,no,yes,2,yes,furnished,Hauz Khas,26
+43164782,3767,4,4,4,yes,yes,no,no,yes,3,no,semi-furnished,Juhu,26
+32052837,3148,3,3,1,no,yes,no,no,yes,3,no,semi-furnished,Adyar,9
+46967976,4474,5,4,3,yes,yes,no,no,yes,3,no,unfurnished,Hauz Khas,19
+14910975,2372,3,2,2,yes,no,no,yes,no,1,yes,furnished,Dwarka,22
+23722936,2999,3,3,4,yes,yes,no,no,yes,3,no,furnished,Salt Lake,18
+46903966,3714,4,4,3,yes,yes,no,no,no,2,no,furnished,Hauz Khas,8
+28712525,3652,4,3,2,yes,no,no,no,yes,3,no,semi-furnished,Adyar,23
+37991513,3463,4,3,3,yes,no,no,no,yes,2,yes,furnished,Powai,16
+26762542,3131,3,3,2,yes,yes,yes,no,yes,2,no,furnished,Koramangala,28
+42682369,3726,4,3,2,yes,yes,yes,no,yes,1,no,furnished,Vasant Vihar,29
+19155860,2887,3,3,1,yes,yes,yes,no,yes,2,no,unfurnished,Dwarka,20
+31409105,2868,3,2,2,yes,yes,yes,no,yes,3,no,semi-furnished,Jubilee Hills,18
+19167848,2296,2,2,4,yes,no,no,no,no,2,no,semi-furnished,Cyber City,15
+44501846,3273,3,3,4,yes,yes,yes,no,yes,3,yes,furnished,Poes Garden,28
+41469990,4712,5,5,4,yes,yes,no,no,yes,3,yes,unfurnished,HITEC City,24
+67003631,3527,4,4,2,yes,yes,no,no,yes,1,no,semi-furnished,South Mumbai,6
+31018793,2867,3,3,2,yes,yes,no,yes,yes,2,yes,furnished,Koregaon Park,23
+34992437,2990,3,3,1,no,no,no,yes,yes,2,yes,furnished,Koregaon Park,13
+41143926,3270,4,3,3,yes,yes,no,no,yes,1,no,unfurnished,Bandra West,11
+51382187,5278,6,5,2,yes,yes,no,no,yes,3,yes,semi-furnished,Andheri West,13
+45195223,3993,4,4,4,yes,yes,yes,no,yes,3,no,furnished,Andheri West,3
+40542463,3187,3,3,4,yes,no,yes,no,yes,2,no,furnished,Cyber City,1
+30713012,1669,2,1,1,yes,no,no,yes,no,0,yes,semi-furnished,Defence Colony,1
+17879303,2950,3,2,2,no,no,yes,no,yes,3,no,semi-furnished,HITEC City,29
+23411626,1803,2,2,1,no,no,no,no,yes,2,no,semi-furnished,Defence Colony,11
+23961701,2848,3,3,2,yes,no,no,no,yes,3,no,furnished,Gachibowli,19
+41424501,3888,4,4,2,yes,yes,no,yes,no,3,yes,semi-furnished,Indiranagar,13
+42665566,4343,5,4,2,yes,yes,no,no,yes,1,yes,unfurnished,Whitefield,5
+34441272,3737,4,3,4,yes,yes,no,yes,yes,3,yes,furnished,Salt Lake,11
+10889281,2036,2,2,3,no,no,no,no,yes,2,no,semi-furnished,Koregaon Park,28
+23198615,3105,3,3,2,yes,yes,no,no,yes,2,no,furnished,Cyber City,29
+44951968,4593,5,5,2,yes,no,no,no,yes,2,no,furnished,Anna Nagar,14
+35578178,5363,6,5,3,yes,yes,no,no,no,3,no,semi-furnished,Salt Lake,23
+72768160,3369,4,4,4,yes,yes,no,no,yes,1,no,furnished,South Mumbai,0
+44420681,3336,4,3,3,yes,yes,no,no,yes,2,no,furnished,Vasant Vihar,22
+35133181,3917,4,4,3,yes,yes,no,no,yes,2,yes,semi-furnished,HITEC City,23
+29529991,3100,3,3,1,yes,yes,yes,no,yes,3,no,semi-furnished,Gachibowli,14
+42080456,2948,3,3,1,yes,yes,no,no,yes,2,no,furnished,Vasant Vihar,18
+43719630,3874,4,4,2,yes,yes,yes,no,yes,2,yes,semi-furnished,Bandra West,25
+10863132,2075,2,1,3,yes,no,no,no,yes,2,no,semi-furnished,HITEC City,28
+23748478,3790,4,4,2,yes,no,no,no,yes,1,yes,unfurnished,Salt Lake,27
+29681480,3682,4,3,2,yes,no,no,no,yes,1,no,unfurnished,Whitefield,12
+49022428,2855,3,3,3,no,yes,no,no,yes,3,no,semi-furnished,Boat Club,9
+38394374,2471,3,2,2,yes,no,yes,no,no,2,yes,furnished,Koramangala,0
+17219581,1718,2,2,1,no,no,yes,no,no,0,no,unfurnished,HITEC City,6
+28653958,2118,2,2,2,no,no,yes,no,yes,2,yes,furnished,Juhu,21
+39337472,2732,3,3,4,yes,yes,yes,no,yes,1,yes,semi-furnished,Boat Club,26
+19234332,1898,2,2,4,no,no,no,no,no,1,yes,furnished,Hauz Khas,18
+27048502,3567,4,4,2,yes,yes,yes,no,yes,3,no,semi-furnished,Andheri West,29
+53111065,3804,4,4,3,yes,yes,no,no,yes,2,yes,unfurnished,Koregaon Park,0
+50078457,3259,4,4,3,yes,no,no,no,yes,1,yes,semi-furnished,Hauz Khas,1
+60889127,5424,6,5,3,yes,yes,no,no,yes,2,no,unfurnished,Indiranagar,1
+40642343,3015,3,3,2,yes,yes,no,no,yes,3,yes,semi-furnished,Adyar,0
+34259313,3534,4,3,2,yes,yes,yes,no,yes,3,no,furnished,Indiranagar,22
+39227173,3502,4,4,2,yes,yes,no,no,yes,1,no,furnished,Defence Colony,23
+13562208,2720,3,2,3,yes,yes,no,no,yes,1,no,unfurnished,Salt Lake,29
+36470536,3777,4,4,3,yes,yes,no,no,yes,1,no,semi-furnished,Cyber City,15
+43642714,3598,4,4,3,yes,no,yes,no,yes,2,yes,furnished,Indiranagar,11
+23827390,3103,3,3,4,no,no,no,no,no,2,yes,semi-furnished,Andheri West,19
+45945181,4863,5,5,3,yes,yes,no,no,yes,2,no,furnished,Adyar,15
+28804287,2821,3,3,1,yes,yes,yes,yes,yes,2,no,furnished,Andheri West,15
+31800490,4821,5,5,4,no,yes,no,no,no,3,yes,furnished,Salt Lake,27
+50411822,3855,4,4,3,yes,no,no,no,no,2,no,unfurnished,Bandra West,1
+46457264,3838,4,4,3,yes,yes,no,no,yes,3,yes,semi-furnished,Jubilee Hills,15
+38542491,4519,5,4,2,yes,yes,no,no,no,3,no,furnished,Gachibowli,15
+54693396,3714,4,4,4,yes,no,no,no,yes,3,no,semi-furnished,Defence Colony,3
+49185498,3595,4,3,2,yes,no,yes,yes,yes,3,yes,furnished,Juhu,22
+33734203,2958,3,3,2,yes,yes,no,no,yes,3,no,unfurnished,Kalyani Nagar,7
+36193704,2559,3,3,2,yes,yes,no,no,yes,1,yes,semi-furnished,Jayanagar,1
+34545951,3824,4,3,3,yes,yes,no,no,yes,3,yes,semi-furnished,Banjara Hills,27
+25329716,2578,3,2,3,no,yes,no,no,yes,2,yes,semi-furnished,Salt Lake,7
+36151911,2814,3,3,1,yes,yes,no,no,yes,2,yes,semi-furnished,Kalyani Nagar,7
+29110287,2606,3,2,1,yes,yes,yes,no,yes,2,yes,unfurnished,Banjara Hills,18
+38523919,2829,3,3,2,yes,yes,no,no,yes,3,no,furnished,Greater Kailash,7
+54331454,2905,3,3,2,yes,yes,no,no,yes,2,no,semi-furnished,Boat Club,7
+30089910,4112,4,4,3,yes,yes,no,no,yes,3,no,semi-furnished,Salt Lake,18
+28805771,2584,3,3,3,yes,yes,yes,no,yes,1,no,unfurnished,Jayanagar,9
+48253956,2707,3,2,2,yes,yes,no,no,yes,3,yes,furnished,Defence Colony,4
+13537416,1824,2,2,2,yes,no,no,no,no,2,yes,unfurnished,Gachibowli,20
+68727001,4203,5,4,3,yes,no,no,no,yes,1,yes,semi-furnished,Juhu,4
+45619404,2684,3,2,2,yes,yes,yes,no,yes,2,no,furnished,Boat Club,16
+27979610,2885,3,3,2,yes,no,no,no,yes,3,yes,unfurnished,Powai,20
+42105874,2774,3,2,1,no,yes,no,no,yes,2,yes,semi-furnished,Vasant Vihar,14
+24331329,2803,3,3,1,yes,yes,yes,no,no,3,no,furnished,Cyber City,23
+69075533,5206,6,5,3,yes,no,no,no,yes,2,no,furnished,Bandra West,5
+32905352,2939,3,3,2,yes,yes,no,no,yes,3,no,semi-furnished,Hauz Khas,18
+41225812,3933,4,4,2,no,yes,no,no,yes,2,yes,semi-furnished,Indiranagar,14
+19995531,2348,3,2,1,no,no,no,no,yes,1,no,unfurnished,Adyar,13
+29724717,2973,3,3,3,yes,yes,yes,yes,yes,3,yes,unfurnished,Anna Nagar,21
+43607736,2972,3,3,3,yes,yes,no,no,yes,2,yes,unfurnished,Defence Colony,10
+24753505,2643,3,2,3,yes,no,no,no,yes,2,no,furnished,Juhu,29
+19583307,3047,3,3,1,yes,yes,no,no,yes,2,no,semi-furnished,Whitefield,27
+72874936,5495,6,5,4,yes,yes,no,yes,yes,2,yes,semi-furnished,Defence Colony,11
+63869716,4577,5,5,4,yes,yes,no,no,yes,3,yes,semi-furnished,Juhu,19
+43176849,3118,3,3,1,yes,yes,no,yes,yes,3,no,furnished,Vasant Vihar,20
+35210912,3479,4,3,2,yes,no,no,yes,yes,2,no,semi-furnished,Jubilee Hills,17
+75346140,4039,5,4,4,yes,yes,no,yes,yes,2,yes,furnished,Poes Garden,5
+27517811,1303,2,1,3,yes,no,yes,no,yes,0,no,unfurnished,South Mumbai,9
+15623895,2497,3,2,2,no,no,no,no,no,1,yes,semi-furnished,Whitefield,22
+16539357,1830,2,1,1,no,yes,no,no,yes,3,no,furnished,HITEC City,18
+31518060,2793,3,3,2,no,yes,no,no,yes,3,no,unfurnished,Bandra West,16
+74436495,3693,4,4,3,yes,yes,no,yes,yes,2,yes,semi-furnished,South Mumbai,6
+37788573,3685,4,4,3,yes,yes,no,no,yes,2,no,furnished,Andheri West,10
+36624516,4022,4,4,3,yes,yes,no,no,yes,3,yes,semi-furnished,Jayanagar,22
+40455076,3908,4,3,3,yes,no,yes,yes,yes,3,yes,semi-furnished,Cyber City,14
+42433093,3272,4,3,3,yes,yes,yes,yes,yes,1,no,unfurnished,Vasant Vihar,20
+52839012,3611,4,4,2,yes,no,yes,no,yes,1,no,semi-furnished,Juhu,11
+32474168,3047,3,3,3,yes,no,no,no,yes,1,no,furnished,Juhu,25
+34389453,3805,4,3,4,yes,yes,no,no,yes,3,no,semi-furnished,Jubilee Hills,26
+29952770,2744,3,3,2,yes,no,no,no,yes,3,no,unfurnished,Koregaon Park,13
+22576116,2632,3,2,1,yes,yes,yes,yes,no,2,no,unfurnished,Jubilee Hills,22
+50104448,3049,3,3,3,no,yes,no,no,yes,2,no,semi-furnished,Vasant Vihar,5
+37154783,3580,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Andheri West,10
+32977132,3894,4,4,4,yes,yes,yes,no,yes,3,no,furnished,Andheri West,24
+9322961,1969,2,2,2,no,no,no,no,no,1,no,semi-furnished,Koregaon Park,25
+11093427,1874,2,1,3,yes,no,no,no,no,2,no,unfurnished,Adyar,20
+39584525,2664,3,2,2,yes,yes,no,no,yes,3,yes,semi-furnished,Alipore,10
+36691903,2745,3,2,4,yes,yes,no,no,yes,3,yes,furnished,Banjara Hills,11
+20110398,2801,3,3,1,no,yes,no,no,yes,3,no,unfurnished,Indiranagar,26
+19564874,2148,2,2,1,no,no,no,no,no,2,no,furnished,Anna Nagar,12
+22440888,3714,4,3,2,yes,no,yes,no,yes,3,no,furnished,Dwarka,26
+32677690,2884,3,3,3,yes,yes,no,no,yes,2,yes,semi-furnished,Koramangala,17
+51456335,2951,3,3,1,yes,yes,yes,no,yes,1,no,furnished,Vasant Vihar,9
+49785295,5030,6,5,3,yes,no,yes,yes,yes,2,no,unfurnished,Cyber City,11
+65655164,4666,5,5,4,yes,yes,no,no,yes,3,no,semi-furnished,Bandra West,2
+11485820,2309,2,2,4,yes,no,no,no,no,2,no,unfurnished,Gachibowli,24
+18042749,1722,2,2,2,yes,no,yes,no,yes,1,no,unfurnished,Juhu,22
+45168872,3636,4,3,3,yes,yes,yes,no,yes,3,no,furnished,Koramangala,8
+32119573,2847,3,3,1,yes,no,no,no,yes,3,yes,furnished,Kalyani Nagar,15
+28373054,2894,3,2,2,yes,yes,yes,no,yes,3,no,unfurnished,Salt Lake,4
+28845974,2620,3,2,2,yes,no,no,no,yes,1,yes,semi-furnished,Anna Nagar,12
+61273471,4476,5,5,2,yes,yes,yes,no,yes,3,yes,semi-furnished,Banjara Hills,0
+30869812,2918,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Banjara Hills,15
+30548820,4500,5,5,2,yes,yes,no,no,yes,3,yes,furnished,Dwarka,27
+51090600,4635,5,5,3,no,yes,no,no,yes,2,no,semi-furnished,Cyber City,1
+66469251,4332,5,4,2,yes,yes,no,no,yes,1,yes,furnished,Defence Colony,3
+36649113,3232,3,3,3,yes,yes,no,yes,yes,3,no,unfurnished,Indiranagar,7
+27300322,3127,3,3,4,yes,yes,yes,no,yes,2,no,semi-furnished,Andheri West,19
+36559326,4410,5,5,2,yes,yes,no,no,yes,3,no,furnished,Jayanagar,27
+61103085,4752,5,5,4,yes,yes,yes,no,yes,3,no,unfurnished,Hauz Khas,5
+56622499,2909,3,2,2,no,yes,yes,no,yes,3,no,furnished,Poes Garden,1
+44155754,2805,3,2,2,yes,yes,no,no,no,2,yes,furnished,Hauz Khas,1
+41977526,3601,4,4,4,yes,yes,no,no,yes,1,yes,furnished,Alipore,23
+28752676,3119,3,3,1,yes,yes,yes,no,yes,2,yes,furnished,Anna Nagar,27
+20889023,2832,3,3,2,yes,yes,no,no,no,2,no,furnished,Anna Nagar,26
+42958835,3753,4,4,3,no,yes,yes,no,yes,2,yes,furnished,Hauz Khas,21
+61418805,4556,5,5,4,yes,yes,no,no,yes,2,no,unfurnished,Juhu,15
+38369681,2991,3,3,1,no,yes,yes,no,yes,3,no,semi-furnished,Koregaon Park,6
+27311142,2737,3,3,4,yes,yes,no,yes,yes,1,no,furnished,Cyber City,17
+40240614,2831,3,2,1,yes,yes,no,yes,yes,3,no,semi-furnished,Koregaon Park,1
+35674847,3098,3,3,1,no,yes,no,no,yes,3,no,unfurnished,Vasant Vihar,21
+38769345,3872,4,4,4,no,yes,no,no,yes,3,no,semi-furnished,Alipore,22
+27078906,2858,3,3,2,no,no,yes,no,yes,2,no,semi-furnished,Koramangala,17
+19416955,2830,3,2,2,no,yes,no,no,yes,3,yes,unfurnished,Gachibowli,26
+50868761,4717,5,5,3,yes,no,no,no,yes,3,no,furnished,Cyber City,7
+32804955,2768,3,3,3,yes,yes,no,no,yes,3,yes,semi-furnished,Hauz Khas,21
+12563347,1684,2,2,4,yes,no,no,no,yes,1,yes,furnished,Kalyani Nagar,29
+53288407,2966,3,2,1,no,yes,yes,no,yes,3,yes,furnished,Boat Club,14
+15731106,1931,2,2,1,no,no,no,no,yes,1,no,unfurnished,Salt Lake,8
+26509805,1961,2,2,1,yes,no,no,no,yes,2,no,semi-furnished,Kalyani Nagar,3
+35038920,2970,3,3,1,yes,yes,no,no,yes,2,no,furnished,Jayanagar,6
+34410907,3390,4,3,4,no,yes,no,no,no,2,no,semi-furnished,Koramangala,10
+36812179,3225,4,3,2,yes,no,no,no,yes,1,no,semi-furnished,Indiranagar,6
+37965392,3800,4,4,3,yes,no,no,yes,yes,2,no,unfurnished,Indiranagar,12
+44352440,2906,3,2,1,yes,yes,no,no,yes,3,no,furnished,Bandra West,5
+24582465,3313,3,3,2,yes,yes,yes,no,no,3,no,unfurnished,Whitefield,18
+38246350,3641,4,4,3,yes,no,no,no,yes,2,no,furnished,Koregaon Park,17
+41792027,5270,6,5,3,yes,no,yes,yes,yes,2,yes,furnished,Gachibowli,28
+47094727,3632,4,4,4,yes,no,yes,no,yes,2,no,semi-furnished,Hauz Khas,7
+47898702,4840,5,5,3,yes,no,yes,no,yes,2,no,semi-furnished,Adyar,9
+26984238,3121,3,3,3,yes,yes,yes,no,yes,3,no,furnished,Whitefield,19
+26947401,3156,3,3,2,yes,yes,no,yes,yes,3,yes,semi-furnished,Kalyani Nagar,27
+11972295,1913,2,2,2,yes,no,no,no,no,1,yes,unfurnished,Dwarka,18
+24266861,2669,3,2,3,yes,no,no,no,yes,3,yes,furnished,Gachibowli,20
+63686157,3690,4,4,2,yes,yes,yes,no,yes,3,no,semi-furnished,South Mumbai,15
+53322455,3715,4,4,3,yes,yes,yes,no,yes,2,no,semi-furnished,Boat Club,22
+10593281,1736,2,2,1,yes,no,yes,yes,no,1,yes,unfurnished,Salt Lake,23
+58208121,3814,4,4,2,yes,no,no,no,yes,3,no,semi-furnished,South Mumbai,17
+57444044,2958,3,2,2,yes,yes,yes,no,yes,3,yes,unfurnished,South Mumbai,11
+51484829,3795,4,3,4,yes,yes,no,no,yes,3,no,unfurnished,Alipore,3
+32370187,3748,4,3,4,yes,yes,no,no,yes,2,no,semi-furnished,Powai,22
+45386486,5175,6,5,4,yes,yes,yes,no,yes,3,no,semi-furnished,Adyar,23
+40372492,2708,3,3,4,yes,yes,yes,no,yes,1,no,furnished,Jubilee Hills,5
+44392205,3529,4,4,4,yes,yes,no,no,yes,2,yes,furnished,Jayanagar,4
+24011597,2749,3,3,1,yes,no,no,no,yes,1,yes,semi-furnished,Hauz Khas,29
+49203774,4087,4,4,2,yes,yes,no,no,yes,3,yes,furnished,HITEC City,3
+31086774,2733,3,3,2,yes,no,yes,no,yes,1,yes,furnished,Powai,17
+34779667,2755,3,3,2,yes,yes,no,yes,no,1,yes,furnished,Andheri West,2
+12940108,1866,2,1,2,yes,yes,yes,yes,no,2,no,furnished,Salt Lake,20
+45596873,4462,5,5,4,no,no,yes,no,yes,1,yes,furnished,Koregaon Park,21
+36810464,3914,4,4,4,yes,yes,no,yes,yes,3,no,semi-furnished,Koregaon Park,23
+46849718,4651,5,5,2,yes,yes,no,no,yes,2,no,furnished,Cyber City,14
+18970920,2596,3,2,2,yes,yes,no,no,yes,2,no,furnished,Adyar,28
+35376737,2987,3,3,2,yes,yes,no,no,yes,3,no,furnished,Andheri West,4
+31350674,1939,2,2,3,no,no,no,no,no,2,no,semi-furnished,Vasant Vihar,4
+20843666,2831,3,3,2,yes,yes,no,no,yes,1,no,furnished,Kalyani Nagar,29
+51265827,4794,5,5,3,no,yes,no,no,yes,3,yes,furnished,Powai,14
+48202272,3467,4,4,4,yes,yes,no,no,yes,2,no,furnished,Jubilee Hills,4
+33633724,3078,3,3,3,no,yes,yes,no,yes,3,no,unfurnished,Alipore,17
+25999983,2872,3,3,4,yes,yes,yes,no,yes,3,no,furnished,Powai,26
+44433812,3499,4,3,3,yes,yes,yes,no,yes,2,no,furnished,Banjara Hills,6
+27664636,1566,2,2,3,yes,no,no,no,no,1,no,unfurnished,Juhu,3
+42376130,2910,3,2,1,yes,yes,no,no,yes,3,yes,semi-furnished,Jubilee Hills,5
+28753795,2781,3,3,1,yes,no,no,yes,yes,2,no,semi-furnished,Adyar,10
+38968337,3597,4,4,2,yes,no,no,no,yes,2,no,furnished,Cyber City,9
+61085967,3699,4,4,2,no,no,no,no,no,3,no,semi-furnished,Boat Club,4
+63133648,5290,6,5,3,yes,yes,yes,no,yes,1,no,semi-furnished,Alipore,12
+22388752,2671,3,3,2,yes,yes,no,no,yes,1,no,semi-furnished,Gachibowli,18
+63690040,3785,4,4,3,yes,no,yes,no,yes,1,yes,semi-furnished,Poes Garden,9
+32885883,3725,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,Powai,25
+52512610,3501,4,3,3,yes,yes,yes,no,yes,2,no,semi-furnished,Bandra West,3
+33266369,3471,4,4,4,yes,yes,no,no,yes,2,yes,furnished,Dwarka,5
+60620669,3875,4,4,4,yes,no,no,no,no,3,no,semi-furnished,Juhu,0
+40198191,3922,4,4,4,yes,no,no,no,yes,2,no,semi-furnished,Jubilee Hills,17
+35486769,3608,4,4,2,yes,yes,no,no,yes,1,no,furnished,Greater Kailash,22
+37789298,4004,4,4,3,yes,yes,no,no,yes,3,no,unfurnished,Gachibowli,9
+24709724,2598,3,2,3,yes,yes,no,no,yes,3,yes,semi-furnished,Kalyani Nagar,23
+72877895,5175,6,5,4,yes,yes,no,no,yes,3,no,furnished,Vasant Vihar,18
+31087876,3011,3,3,2,no,yes,yes,no,no,3,no,semi-furnished,Powai,11
+32437537,3282,4,4,3,no,yes,yes,no,yes,1,yes,furnished,Anna Nagar,22
+37861189,3353,4,3,3,yes,yes,no,no,yes,1,yes,furnished,Alipore,24
+61889543,3639,4,4,2,no,yes,yes,no,yes,1,no,semi-furnished,South Mumbai,11
+27568553,3535,4,4,3,yes,yes,no,no,yes,1,yes,unfurnished,Andheri West,27
+58114291,3631,4,3,2,no,yes,no,no,yes,2,no,furnished,Boat Club,12
+31480539,3544,4,4,2,yes,yes,no,no,yes,2,yes,unfurnished,Banjara Hills,28
+38462592,3820,4,4,4,yes,yes,no,no,yes,3,no,semi-furnished,Indiranagar,16
+44234156,4852,6,5,3,yes,yes,no,no,yes,1,no,unfurnished,Greater Kailash,24
+38522617,3626,4,4,4,no,no,no,no,yes,2,yes,semi-furnished,Kalyani Nagar,10
+19421282,2785,3,2,4,yes,yes,yes,no,no,3,no,semi-furnished,Banjara Hills,29
+39125227,3601,4,4,2,no,yes,no,no,yes,3,no,semi-furnished,Poes Garden,29
+19240906,1813,2,2,2,no,no,no,no,no,1,no,unfurnished,HITEC City,3
+33296464,3925,4,4,3,no,yes,no,no,yes,3,no,semi-furnished,Banjara Hills,24
+26220802,2926,3,3,2,yes,yes,no,no,yes,3,no,semi-furnished,Hauz Khas,27
+20993306,1842,2,2,2,yes,no,no,yes,yes,2,no,unfurnished,Kalyani Nagar,9
+28512077,2704,3,3,2,yes,yes,no,no,yes,1,yes,semi-furnished,Dwarka,0
+33959455,2841,3,3,2,yes,yes,no,yes,yes,3,no,furnished,Koregaon Park,14
+43076209,4017,4,4,4,yes,yes,yes,no,yes,3,no,furnished,Jayanagar,10
+20160598,2068,2,2,1,yes,no,yes,no,no,3,no,semi-furnished,Salt Lake,5
+34086245,4373,5,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Dwarka,7
+79782615,3818,4,4,3,yes,yes,yes,no,yes,2,no,semi-furnished,South Mumbai,0
+43513586,2640,3,2,3,yes,yes,no,no,yes,3,no,unfurnished,South Mumbai,15
+30714691,3187,3,3,1,no,yes,yes,no,yes,3,no,semi-furnished,Hauz Khas,22
+27413139,3518,4,4,2,yes,yes,yes,no,yes,1,no,semi-furnished,Gachibowli,24
+40415685,3546,4,4,2,yes,no,yes,no,yes,2,yes,furnished,Koramangala,18
+27338435,3561,4,3,3,no,yes,no,no,yes,2,no,unfurnished,Andheri West,19
+30718662,3058,3,3,3,yes,yes,yes,no,yes,2,yes,semi-furnished,Powai,22
+45139647,5247,6,5,4,yes,yes,yes,no,yes,3,yes,semi-furnished,Andheri West,26
+36502733,2824,3,2,2,yes,yes,yes,no,yes,3,no,unfurnished,Kalyani Nagar,1
+25125621,2792,3,3,2,yes,no,no,no,yes,2,yes,furnished,Salt Lake,14
+53218797,3781,4,4,3,yes,yes,yes,no,yes,3,yes,unfurnished,Vasant Vihar,22
+29176835,2016,2,2,2,yes,no,yes,no,yes,1,no,semi-furnished,Indiranagar,1
+20978168,1708,2,2,2,yes,no,no,no,no,1,no,semi-furnished,Alipore,10
+31853155,3527,4,4,2,yes,yes,yes,no,yes,3,yes,semi-furnished,HITEC City,27
+45740750,2699,3,2,4,yes,no,yes,no,yes,2,yes,semi-furnished,Poes Garden,13
+34727235,4489,5,5,3,no,yes,no,no,yes,1,no,unfurnished,Indiranagar,26
+37956002,1824,2,1,2,yes,yes,no,no,no,2,yes,semi-furnished,Boat Club,8
+22920345,3089,3,3,2,yes,yes,yes,yes,yes,3,no,semi-furnished,Jayanagar,29
+18494795,2882,3,3,3,yes,no,no,no,no,3,no,semi-furnished,Powai,28
+45737695,3813,4,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Poes Garden,26
+36242071,3864,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Gachibowli,12
+32648219,2707,3,3,4,no,yes,no,yes,yes,3,yes,furnished,Jubilee Hills,18
+25433101,2952,3,3,2,yes,no,no,no,yes,2,no,semi-furnished,Salt Lake,8
+35727515,2816,3,3,1,yes,yes,no,no,yes,2,no,semi-furnished,Hauz Khas,11
+36649769,2799,3,2,2,yes,no,no,no,yes,1,yes,furnished,Juhu,21
+41718907,4719,5,5,2,yes,no,no,no,yes,3,yes,furnished,Anna Nagar,27
+40048361,4506,5,5,4,yes,yes,no,no,yes,2,yes,furnished,Dwarka,5
+42405749,4869,6,5,3,yes,yes,no,no,yes,1,no,semi-furnished,Gachibowli,15
+31613075,3041,3,2,4,yes,no,yes,no,yes,3,yes,semi-furnished,Anna Nagar,16
+14421008,2141,2,2,2,no,no,yes,no,yes,1,no,unfurnished,Juhu,28
+35653844,3024,3,3,4,no,yes,no,no,yes,3,yes,furnished,Jayanagar,8
+38952486,1874,2,2,1,no,no,no,no,yes,0,no,furnished,Poes Garden,0
+48357949,3787,4,4,4,yes,yes,yes,no,yes,2,yes,furnished,HITEC City,3
+28473729,3963,4,4,4,yes,yes,yes,no,yes,3,no,unfurnished,Andheri West,29
+22786989,1763,2,2,1,yes,no,no,no,no,1,no,semi-furnished,Alipore,8
+29740946,3285,4,4,4,yes,yes,no,no,yes,1,no,unfurnished,Banjara Hills,22
+42952728,3761,4,4,2,yes,no,no,yes,yes,2,no,furnished,Juhu,25
+34903268,3048,3,3,2,yes,no,no,no,no,3,yes,furnished,Greater Kailash,14
+38986425,2867,3,2,2,yes,yes,no,no,yes,2,no,furnished,Jubilee Hills,6
+40725625,5299,6,5,2,yes,yes,no,yes,yes,2,no,semi-furnished,Andheri West,26
+53510539,4614,5,5,4,yes,yes,no,no,yes,2,yes,semi-furnished,Banjara Hills,11
+62468355,3638,4,3,4,yes,yes,no,no,no,3,no,semi-furnished,South Mumbai,8
+43433104,3766,4,4,3,no,no,no,no,yes,1,no,semi-furnished,Boat Club,25
+62516349,3853,4,4,3,no,yes,no,yes,yes,2,no,semi-furnished,South Mumbai,12
+19212708,2567,3,3,1,yes,yes,yes,no,yes,2,no,semi-furnished,HITEC City,28
+22007634,2728,3,2,1,yes,no,yes,no,yes,1,yes,unfurnished,Greater Kailash,29
+32495550,4241,5,4,4,yes,no,no,yes,yes,2,yes,semi-furnished,Dwarka,12
+40601988,3279,3,3,2,yes,no,no,no,no,3,yes,furnished,Defence Colony,16
+20887203,3187,3,3,2,yes,no,no,no,yes,3,yes,furnished,Dwarka,25
+41131671,3831,4,4,4,yes,yes,no,no,yes,3,no,furnished,Greater Kailash,18
+30449312,2926,3,3,1,no,no,no,no,yes,2,no,furnished,Koramangala,13
+58797149,3259,4,3,3,no,yes,yes,no,yes,1,yes,semi-furnished,Juhu,2
+28856306,3017,3,3,4,yes,yes,no,yes,yes,2,yes,unfurnished,Cyber City,20
+35736375,3436,4,3,3,no,yes,no,no,yes,1,no,unfurnished,Andheri West,1
+15103883,2208,3,2,3,yes,no,yes,no,no,1,yes,unfurnished,Powai,28
+24526738,2604,3,3,2,yes,no,no,no,yes,1,no,semi-furnished,Koramangala,18
+46254490,4614,5,5,3,yes,yes,no,no,no,2,no,furnished,Andheri West,5
+45394104,5407,6,5,4,no,no,yes,no,yes,2,no,semi-furnished,Powai,23
+48360636,2837,3,2,1,no,yes,yes,no,yes,3,no,semi-furnished,Poes Garden,7
+34997950,2609,3,2,4,yes,yes,no,no,yes,3,no,furnished,Jubilee Hills,10
+21319664,2711,3,3,1,no,yes,no,no,yes,1,yes,unfurnished,Salt Lake,16
+52871226,3891,4,4,4,no,no,no,no,yes,2,yes,furnished,Hauz Khas,4
+20192390,2711,3,3,3,yes,yes,no,no,yes,3,no,semi-furnished,Adyar,27
+40558586,3726,4,4,3,yes,no,no,yes,yes,2,no,furnished,Anna Nagar,9
+31520172,4032,4,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Andheri West,23
+22612285,2714,3,3,2,yes,yes,no,no,yes,1,no,furnished,Koregaon Park,28
+36154553,3443,4,4,4,yes,yes,no,no,no,1,no,unfurnished,Cyber City,6
+47886978,3318,4,4,3,yes,yes,no,no,no,1,yes,furnished,Jubilee Hills,3
+13770117,1749,2,2,1,no,no,yes,no,yes,1,no,furnished,Salt Lake,16
+12072438,1813,2,1,4,no,no,no,no,no,3,yes,unfurnished,Gachibowli,19
+85127742,5555,6,5,4,yes,yes,no,no,yes,3,no,furnished,Juhu,4
+34524712,4085,4,4,4,yes,yes,no,no,yes,3,no,semi-furnished,Gachibowli,17
+19363827,2159,2,2,2,yes,no,yes,no,no,3,no,semi-furnished,Kalyani Nagar,16
+31027465,2783,3,3,1,yes,no,yes,yes,yes,3,no,furnished,Cyber City,13
+32185425,2922,3,3,2,yes,no,no,no,yes,2,no,unfurnished,Banjara Hills,9
+34865278,2903,3,3,2,yes,yes,yes,yes,yes,2,yes,unfurnished,Whitefield,1
+41062620,3844,4,4,3,yes,no,no,no,yes,3,no,unfurnished,Koregaon Park,12
+30097094,3566,4,3,3,yes,yes,no,yes,yes,3,yes,unfurnished,Cyber City,27
+20862548,2616,3,2,2,yes,yes,no,no,yes,2,no,unfurnished,Jayanagar,21
+29550857,2587,3,2,3,yes,yes,no,no,yes,2,no,furnished,Kalyani Nagar,11
+28485855,2785,3,3,1,yes,yes,no,no,yes,3,no,unfurnished,Andheri West,11
+17776811,1651,2,1,3,yes,no,no,no,yes,1,no,semi-furnished,Salt Lake,4
+44363696,2797,3,3,2,yes,yes,no,no,yes,2,no,furnished,Vasant Vihar,14
+45349842,3494,4,3,2,yes,yes,yes,no,yes,2,yes,unfurnished,Bandra West,16
+17003262,2436,3,2,3,no,yes,no,yes,no,1,no,furnished,Greater Kailash,25
+52402160,2764,3,3,2,yes,no,no,no,no,2,no,furnished,Poes Garden,0
+20521687,3409,4,3,4,yes,no,no,no,no,1,no,furnished,Gachibowli,28
+30019356,2805,3,3,2,yes,no,no,no,yes,3,no,unfurnished,Koramangala,12
+34770918,2996,3,3,1,no,yes,no,no,yes,3,yes,semi-furnished,Bandra West,20
+58244709,5382,6,5,3,yes,no,no,no,yes,3,no,semi-furnished,Hauz Khas,16
+57091829,5334,6,5,4,yes,yes,no,no,yes,2,no,semi-furnished,Hauz Khas,18
+37362799,3082,3,3,1,yes,yes,no,yes,yes,3,yes,semi-furnished,Adyar,7
+44943555,3829,4,4,2,yes,yes,yes,no,yes,2,yes,semi-furnished,Adyar,6
+55273046,3917,4,4,3,yes,no,yes,no,yes,3,yes,unfurnished,Poes Garden,21
+77423676,4110,4,4,4,no,yes,yes,no,yes,3,no,semi-furnished,South Mumbai,2
+36152178,2848,3,2,2,yes,no,no,no,yes,3,no,furnished,Jubilee Hills,9
+41504009,2613,3,3,3,yes,no,yes,no,yes,1,no,furnished,Poes Garden,15
+30596744,3023,3,3,2,yes,yes,no,no,yes,3,yes,furnished,Dwarka,3
+51702489,5668,6,5,3,yes,yes,no,no,yes,3,no,unfurnished,Hauz Khas,29
+56746517,3648,4,4,2,yes,yes,no,no,yes,2,yes,semi-furnished,Juhu,12
+16415005,1850,2,2,2,yes,no,no,no,no,1,no,semi-furnished,Defence Colony,19
+53987226,2594,3,2,3,yes,yes,no,no,yes,2,yes,semi-furnished,Boat Club,7
+29270226,3012,3,3,1,yes,yes,yes,no,yes,1,yes,furnished,Salt Lake,12
+45707597,4800,5,5,4,yes,no,no,no,yes,3,yes,semi-furnished,Koregaon Park,26
+33758479,3209,3,3,2,yes,yes,no,yes,yes,3,yes,furnished,HITEC City,17
+30963358,2845,3,3,1,no,no,no,no,yes,3,yes,furnished,Salt Lake,1
+42146426,4025,4,4,2,yes,yes,no,yes,yes,3,no,semi-furnished,Defence Colony,25
+75544079,4490,5,5,4,yes,no,yes,no,yes,1,no,furnished,Vasant Vihar,3
+29017364,2652,3,3,3,yes,yes,yes,yes,yes,2,no,semi-furnished,Vasant Vihar,29
+55492030,5219,6,5,2,no,yes,no,no,yes,3,no,semi-furnished,Anna Nagar,3
+31770354,4747,5,5,4,yes,no,yes,no,yes,2,no,furnished,Dwarka,21
+28813062,2959,3,3,3,no,no,yes,no,yes,2,no,furnished,Andheri West,11
+29636025,2890,3,3,2,yes,yes,no,no,yes,3,yes,furnished,Gachibowli,16
+39321444,2986,3,3,1,yes,yes,no,no,yes,2,no,unfurnished,Greater Kailash,3
+68771959,4775,5,5,3,yes,yes,yes,no,yes,3,no,furnished,Bandra West,4
+38867918,2807,3,3,2,yes,yes,yes,no,yes,2,yes,semi-furnished,Andheri West,0
+29017296,3030,3,3,2,yes,yes,yes,no,yes,2,no,semi-furnished,Alipore,26
+22290393,2583,3,2,2,yes,yes,no,no,yes,2,no,unfurnished,Adyar,18
+47032295,3767,4,4,3,yes,no,no,no,yes,2,no,furnished,Bandra West,12
+49370836,4528,5,4,4,no,yes,no,no,yes,3,yes,semi-furnished,Koregaon Park,15
+23124536,2729,3,2,3,no,yes,no,no,no,3,no,furnished,Bandra West,25
+59663212,3755,4,4,3,yes,no,no,yes,yes,2,yes,semi-furnished,Vasant Vihar,11
+69073741,3491,4,3,4,yes,yes,yes,no,yes,2,yes,furnished,Boat Club,9
+14053957,1925,2,2,4,no,no,yes,no,yes,2,no,semi-furnished,Adyar,21
+35627403,3499,4,4,4,yes,yes,no,no,yes,1,no,semi-furnished,Jubilee Hills,20
+34832843,4315,5,4,3,yes,no,yes,yes,yes,2,yes,semi-furnished,Salt Lake,16
+31793201,2790,3,3,4,yes,yes,no,no,yes,2,no,furnished,Bandra West,21
+19346300,2793,3,3,2,yes,yes,no,yes,yes,1,yes,furnished,Salt Lake,28
+36103808,3403,4,4,4,yes,yes,yes,no,yes,1,yes,unfurnished,Adyar,14
+56518345,3730,4,3,3,yes,yes,no,no,yes,3,no,semi-furnished,Defence Colony,1
+42509749,3153,3,3,2,yes,yes,yes,no,yes,3,no,unfurnished,Koramangala,1
+36449689,2806,3,3,3,yes,yes,yes,no,yes,2,no,furnished,Indiranagar,7
+41017851,3833,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Greater Kailash,17
+26264519,2892,3,3,1,yes,yes,no,yes,yes,3,no,semi-furnished,Koramangala,23
+37659017,2929,3,3,2,yes,yes,no,no,yes,2,yes,furnished,Anna Nagar,8
+74234618,3487,4,4,2,yes,no,yes,no,yes,1,yes,semi-furnished,Boat Club,0
+35630918,2601,3,3,4,yes,yes,no,no,yes,2,yes,unfurnished,Indiranagar,6
+17840784,2512,3,3,2,yes,yes,no,no,yes,1,no,semi-furnished,Adyar,27
+29011109,2833,3,2,1,yes,yes,yes,no,no,1,no,semi-furnished,Vasant Vihar,25
+61259984,4197,5,4,3,yes,yes,yes,no,yes,2,no,unfurnished,Vasant Vihar,14
+26039592,3666,4,4,3,yes,yes,no,no,yes,2,yes,furnished,Salt Lake,28
+39540328,3980,4,4,4,yes,yes,no,no,yes,2,no,furnished,Kalyani Nagar,15
+58153150,2669,3,3,2,no,no,no,yes,yes,1,yes,furnished,Boat Club,1
+36872887,3658,4,3,3,yes,yes,no,no,no,3,yes,semi-furnished,Bandra West,26
+24866394,2125,2,2,1,yes,no,yes,no,no,2,yes,semi-furnished,Banjara Hills,13
+29369272,2733,3,2,2,yes,yes,no,no,yes,1,no,furnished,Hauz Khas,19
+71896707,5188,6,5,3,yes,no,yes,no,yes,2,yes,semi-furnished,Alipore,3
+26469440,2737,3,3,2,yes,yes,no,no,yes,2,yes,furnished,Salt Lake,13
+56505903,4342,5,4,2,yes,no,no,no,yes,3,no,semi-furnished,Vasant Vihar,19
+28330103,3529,4,4,4,yes,yes,yes,no,yes,2,yes,furnished,Dwarka,18
+27397036,2737,3,3,1,yes,yes,no,no,yes,1,yes,semi-furnished,Dwarka,3
+27601103,2876,3,3,3,yes,yes,yes,no,yes,2,no,semi-furnished,Koregaon Park,23
+32308175,2659,3,3,2,no,yes,no,no,yes,2,no,furnished,Adyar,4
+24256735,2652,3,2,1,yes,no,no,no,yes,2,yes,unfurnished,Banjara Hills,22
+43152195,3057,3,3,1,yes,yes,no,no,yes,3,yes,semi-furnished,Greater Kailash,6
+36012671,2824,3,3,1,no,no,yes,yes,yes,3,no,semi-furnished,Indiranagar,2
+35056897,3808,4,4,2,yes,no,yes,no,yes,2,no,semi-furnished,Whitefield,9
+29330791,3525,4,3,4,yes,no,yes,no,yes,2,no,semi-furnished,Whitefield,16
+30808907,2352,3,2,1,no,no,yes,no,no,1,yes,furnished,Defence Colony,14
+38602712,3436,4,4,3,yes,yes,no,no,yes,1,yes,semi-furnished,Hauz Khas,21
+23501868,2671,3,3,3,yes,yes,no,no,yes,1,no,semi-furnished,Jayanagar,19
+40273697,2782,3,2,1,yes,yes,yes,no,yes,2,no,semi-furnished,Defence Colony,9
+29131829,3539,4,3,3,yes,yes,yes,no,yes,3,no,semi-furnished,Anna Nagar,27
+28891142,3231,3,3,2,yes,no,no,no,yes,3,no,unfurnished,Banjara Hills,19
+28066381,2849,3,2,4,no,no,yes,no,yes,2,yes,unfurnished,Gachibowli,9
+36614863,4067,4,4,3,yes,yes,no,no,yes,3,no,furnished,Gachibowli,15
+26926168,3160,3,2,1,yes,no,no,no,yes,3,no,semi-furnished,Bandra West,27
+21152471,3012,3,3,4,yes,no,yes,no,yes,2,yes,furnished,Dwarka,23
+34636018,2793,3,3,1,yes,yes,no,no,yes,2,no,unfurnished,Juhu,19
+56160715,3129,3,3,3,yes,no,no,no,yes,3,no,furnished,Juhu,0
+22750483,2515,3,2,1,no,yes,no,yes,yes,1,no,semi-furnished,Adyar,14
+20562265,1613,2,2,3,yes,no,yes,no,no,1,no,semi-furnished,Gachibowli,2
+39735158,2847,3,3,1,yes,no,yes,no,yes,2,yes,semi-furnished,Banjara Hills,5
+31759239,2671,3,3,1,yes,yes,no,no,no,2,no,semi-furnished,Bandra West,14
+33262746,2452,3,3,1,yes,yes,no,no,no,1,no,semi-furnished,Juhu,14
+40143304,4257,5,5,4,yes,yes,no,no,yes,2,no,furnished,Koregaon Park,27
+44429129,3979,4,4,2,yes,yes,no,yes,yes,3,no,furnished,Adyar,5
+63093657,4508,5,5,4,yes,no,yes,no,yes,2,no,semi-furnished,Juhu,13
+37474666,3322,4,3,3,yes,yes,no,no,yes,1,no,furnished,Adyar,6
+35651526,2752,3,3,3,yes,no,yes,no,yes,2,yes,semi-furnished,Gachibowli,0
+12277082,1857,2,2,2,yes,no,yes,no,no,3,no,semi-furnished,Powai,25
+86024954,4735,5,4,3,yes,no,no,no,yes,3,no,semi-furnished,South Mumbai,2
+30495891,2761,3,3,1,yes,no,no,no,yes,1,yes,furnished,Salt Lake,2
+44193117,4844,5,5,3,yes,yes,yes,no,yes,3,yes,semi-furnished,Gachibowli,18
+34846303,3865,4,4,3,no,yes,no,yes,yes,3,yes,semi-furnished,Salt Lake,8
+20876036,2025,2,2,2,no,no,no,no,yes,1,no,unfurnished,Adyar,6
+37546043,2918,3,3,2,yes,no,no,no,yes,1,no,furnished,Defence Colony,13
+30332686,3052,3,3,3,no,yes,no,yes,yes,3,yes,furnished,Cyber City,20
+24312879,2783,3,3,2,yes,no,no,no,yes,2,no,furnished,Anna Nagar,21
+32018125,3739,4,3,3,yes,no,yes,no,yes,3,no,semi-furnished,Salt Lake,9
+62872465,4456,5,5,4,yes,yes,no,no,yes,2,no,furnished,Alipore,2
+25277681,2908,3,3,2,yes,no,no,no,yes,3,yes,unfurnished,Hauz Khas,29
+68264340,3442,4,4,3,yes,yes,no,no,yes,1,no,furnished,South Mumbai,6
+44731660,4061,5,4,2,yes,no,no,no,yes,2,no,semi-furnished,Greater Kailash,12
+16542936,2809,3,3,2,yes,no,no,yes,no,3,no,furnished,Salt Lake,25
+54093109,4597,5,5,4,no,yes,no,no,yes,3,no,furnished,Koramangala,5
+50537596,3788,4,4,3,yes,no,no,no,yes,2,yes,furnished,Alipore,11
+27267523,3635,4,3,2,yes,yes,no,no,no,3,no,unfurnished,Powai,25
+28761212,2778,3,3,2,yes,yes,no,yes,yes,2,yes,semi-furnished,Koregaon Park,23
+10740188,1613,2,2,1,yes,no,yes,no,yes,1,no,unfurnished,Koregaon Park,26
+34852990,2911,3,3,1,yes,no,no,no,no,2,yes,semi-furnished,HITEC City,2
+27839257,3099,4,3,3,yes,yes,no,yes,yes,1,yes,semi-furnished,Powai,26
+12371770,1859,2,2,2,yes,no,no,no,no,1,no,furnished,Dwarka,15
+25517526,3616,4,4,2,no,yes,no,no,yes,1,no,unfurnished,HITEC City,25
+39006241,4888,6,5,3,no,yes,no,no,yes,1,no,furnished,Salt Lake,11
+42197483,2879,3,2,2,yes,no,no,no,yes,2,yes,furnished,Greater Kailash,2
+30406485,3830,4,4,2,yes,yes,no,no,yes,2,no,furnished,Whitefield,21
+42510175,3821,4,4,3,yes,yes,yes,no,yes,3,no,semi-furnished,Anna Nagar,9
+40511301,3962,4,4,4,no,no,no,no,yes,3,no,semi-furnished,Andheri West,2
+36387217,4118,4,4,2,yes,yes,no,no,yes,3,no,semi-furnished,Gachibowli,14
+50303269,4382,5,5,2,yes,yes,no,no,yes,2,no,semi-furnished,HITEC City,0
+29990457,3737,4,4,2,yes,yes,no,no,yes,2,no,semi-furnished,Adyar,24
+26780073,2990,3,3,1,yes,yes,no,no,yes,3,no,semi-furnished,Jayanagar,19
+39050229,4062,4,4,3,yes,yes,no,no,yes,3,no,furnished,Koramangala,22
+64719501,3077,3,3,4,yes,yes,no,yes,yes,2,yes,unfurnished,Boat Club,1
+39647868,3823,4,4,2,no,no,yes,no,yes,2,yes,furnished,Bandra West,27
+22585004,3145,3,3,1,yes,no,no,yes,yes,3,no,semi-furnished,Banjara Hills,29
+33152559,3075,4,3,3,yes,yes,no,yes,no,1,yes,furnished,Banjara Hills,18
+38268563,3611,4,4,4,yes,yes,no,no,yes,2,yes,furnished,Greater Kailash,24
+77923162,5102,6,5,2,yes,yes,no,no,no,2,no,semi-furnished,Juhu,1
+39968116,2933,3,3,2,yes,no,no,no,yes,2,no,furnished,Juhu,16
+37844252,2796,3,3,4,yes,yes,yes,no,yes,2,no,furnished,Alipore,14
+28991941,3080,3,3,1,no,yes,no,no,yes,3,no,unfurnished,Salt Lake,1
+37426283,4234,5,5,4,no,yes,yes,no,yes,1,no,semi-furnished,Andheri West,16
+35617896,4010,4,4,2,yes,yes,yes,no,yes,3,no,semi-furnished,Koregaon Park,28
+21931742,2478,3,2,3,no,no,no,no,no,2,no,semi-furnished,Vasant Vihar,23
+40350377,2592,3,2,2,no,yes,yes,no,yes,3,yes,semi-furnished,Greater Kailash,2
+30449653,2914,3,3,2,yes,yes,yes,no,yes,2,no,semi-furnished,Kalyani Nagar,14
+33609253,4438,5,5,3,yes,yes,yes,no,yes,2,yes,unfurnished,Salt Lake,23
+57037611,2779,3,3,1,yes,yes,no,no,yes,2,no,furnished,South Mumbai,7
+26868937,2864,3,3,3,yes,yes,no,yes,yes,2,yes,furnished,Whitefield,18
+60194950,4139,5,5,4,yes,no,no,no,yes,1,no,semi-furnished,South Mumbai,21
+35600284,4541,5,5,4,yes,yes,yes,no,no,1,no,furnished,Andheri West,25
+38632491,2539,3,3,2,yes,no,no,no,yes,1,yes,furnished,Greater Kailash,4
+74517997,4693,5,5,3,yes,yes,no,yes,yes,2,yes,furnished,Juhu,9
+57610229,3828,4,4,4,yes,yes,no,yes,yes,3,yes,furnished,Defence Colony,9
+63296311,3920,4,4,2,yes,yes,no,no,yes,3,no,unfurnished,Boat Club,11
+47360590,2853,3,3,1,yes,yes,yes,no,yes,2,no,furnished,Defence Colony,4
+16914192,2813,3,2,4,yes,yes,no,yes,yes,3,no,semi-furnished,Dwarka,23
+44818034,2575,3,3,2,no,yes,no,no,yes,2,yes,furnished,Bandra West,3
+56523373,5358,6,5,2,yes,yes,no,no,no,2,no,furnished,Koramangala,10
+45803580,3376,4,3,4,yes,yes,no,no,yes,1,no,semi-furnished,Hauz Khas,4
+42030617,3501,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,Koramangala,10
+43238861,2614,3,2,1,yes,yes,no,no,yes,3,no,furnished,Defence Colony,5
+43151144,4051,5,4,3,yes,yes,no,no,yes,1,no,semi-furnished,Banjara Hills,13
+48709925,4975,6,5,4,yes,yes,no,no,yes,2,yes,furnished,Koramangala,26
+24452666,3626,4,4,4,yes,yes,no,no,yes,1,no,furnished,Whitefield,29
+30360016,2686,3,2,4,yes,no,no,no,no,2,yes,semi-furnished,Adyar,6
+36301868,2873,3,3,1,yes,no,no,no,yes,2,yes,semi-furnished,Jubilee Hills,12
+51068613,3879,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Koramangala,0
+40423776,3979,4,4,2,yes,yes,no,no,yes,2,no,furnished,Whitefield,3
+51067337,4210,5,4,2,yes,yes,yes,yes,yes,3,yes,unfurnished,Hauz Khas,17
+43109212,4717,5,5,3,yes,yes,no,no,yes,3,no,furnished,Powai,24
+25505091,2920,3,2,4,yes,yes,yes,no,yes,3,no,semi-furnished,Banjara Hills,25
+31781385,3097,3,2,2,yes,no,no,no,yes,3,no,furnished,Cyber City,12
+29552175,2918,3,2,2,yes,no,yes,yes,yes,3,no,unfurnished,Cyber City,12
+65257351,5095,6,5,2,yes,yes,no,no,yes,2,no,furnished,Bandra West,11
+70741767,3832,4,4,4,yes,yes,yes,yes,yes,2,yes,semi-furnished,Boat Club,10
+30760013,2760,3,2,2,yes,yes,no,no,yes,3,no,unfurnished,Anna Nagar,8
+27749184,3297,4,3,2,yes,yes,yes,no,yes,1,yes,semi-furnished,Whitefield,22
+28744354,3126,3,3,2,yes,yes,no,no,yes,2,no,semi-furnished,Dwarka,0
+67412464,4928,6,5,3,yes,yes,yes,no,yes,1,yes,furnished,Juhu,23
+69944982,5205,6,5,2,yes,yes,no,no,yes,2,no,semi-furnished,Defence Colony,6
+38152341,3543,4,4,3,yes,yes,no,yes,yes,1,no,furnished,Bandra West,24
+34577360,4033,4,4,4,yes,yes,no,no,yes,3,no,furnished,Whitefield,17
+52673676,2922,3,2,2,yes,yes,no,yes,yes,3,no,semi-furnished,Boat Club,8
+18585440,2708,3,3,1,yes,yes,no,no,yes,1,no,semi-furnished,Adyar,28
+29561139,3809,4,3,3,yes,yes,no,no,yes,3,no,unfurnished,Gachibowli,20
+18835816,2637,3,2,4,no,yes,no,no,yes,2,no,unfurnished,Whitefield,18
+27699982,3082,3,3,4,yes,yes,no,no,yes,3,yes,semi-furnished,Kalyani Nagar,25
+44528850,3667,4,4,2,yes,yes,no,yes,no,2,no,furnished,Jubilee Hills,8
+30602292,3170,3,3,2,no,no,no,no,yes,2,no,semi-furnished,Defence Colony,21
+34731680,4140,4,4,3,yes,yes,no,no,yes,3,no,furnished,Andheri West,22
+49124880,3434,4,3,4,yes,no,yes,no,yes,2,yes,unfurnished,Juhu,16
+53653263,4322,5,5,4,yes,yes,no,no,yes,2,no,semi-furnished,Greater Kailash,4
+46461287,3268,4,3,3,yes,yes,no,no,yes,1,no,furnished,Koregaon Park,0
+27009191,3656,4,4,2,yes,no,no,no,yes,2,no,semi-furnished,Whitefield,21
+34137647,2913,3,3,3,yes,yes,yes,no,yes,2,no,semi-furnished,Jubilee Hills,15
+28944970,2787,3,2,2,yes,no,no,no,yes,3,yes,semi-furnished,Alipore,24
+48778140,5217,6,5,3,yes,no,no,no,yes,1,no,semi-furnished,Whitefield,2
+25633099,2899,3,3,1,yes,no,no,no,yes,2,yes,furnished,Salt Lake,15
+45591740,3745,4,4,4,yes,yes,no,yes,yes,2,yes,unfurnished,Alipore,16
+37472118,3141,3,3,2,yes,yes,no,no,yes,3,no,semi-furnished,Koregaon Park,10
+25462829,2363,3,3,2,yes,no,no,yes,yes,1,no,unfurnished,Jubilee Hills,15
+25385703,3019,3,3,2,yes,yes,no,no,no,3,yes,semi-furnished,Whitefield,18
+29198903,2724,3,2,2,yes,yes,yes,no,yes,2,yes,semi-furnished,HITEC City,16
+28158163,2708,3,3,1,yes,yes,no,no,yes,3,no,semi-furnished,Indiranagar,17
+48184481,3779,4,4,3,yes,yes,yes,no,yes,1,yes,furnished,Banjara Hills,9
+18540136,2667,3,2,1,yes,no,no,yes,yes,2,no,unfurnished,Jubilee Hills,28
+23056789,2755,3,2,1,yes,yes,no,no,no,3,yes,semi-furnished,Salt Lake,14
+43711848,3603,4,4,3,yes,no,no,no,yes,2,no,semi-furnished,Koregaon Park,6
+47029995,4333,5,5,4,no,yes,yes,no,yes,2,no,furnished,HITEC City,7
+38053178,3603,4,4,3,yes,yes,no,no,yes,2,yes,unfurnished,Greater Kailash,20
+52196122,3333,4,3,3,yes,yes,no,yes,yes,1,no,furnished,South Mumbai,19
+19978132,2945,3,2,3,yes,no,no,no,yes,3,no,unfurnished,Andheri West,24
+42621025,3773,4,4,3,no,yes,no,no,yes,1,no,furnished,Koregaon Park,10
+17362330,2650,3,2,1,yes,yes,no,no,no,2,no,unfurnished,Whitefield,20
+26216817,2711,3,3,1,yes,no,no,no,yes,1,yes,semi-furnished,Cyber City,19
+28449362,2602,3,2,2,yes,yes,yes,no,yes,2,no,semi-furnished,Indiranagar,14
+42906322,2911,3,2,2,no,yes,no,yes,yes,3,no,furnished,South Mumbai,19
+60960423,5435,6,5,2,yes,yes,no,yes,yes,3,no,semi-furnished,Greater Kailash,9
+29121326,2937,3,3,2,yes,yes,no,no,yes,2,no,furnished,Indiranagar,19
+27148535,3815,4,4,3,yes,no,no,no,yes,2,no,semi-furnished,Salt Lake,18
+65245427,5422,6,5,3,yes,yes,no,no,yes,3,yes,unfurnished,Defence Colony,19
+35297904,2689,3,2,3,yes,no,no,no,yes,3,no,unfurnished,Jubilee Hills,5
+29327843,2978,3,2,2,yes,yes,yes,no,yes,3,no,semi-furnished,Adyar,15
+45022513,2997,3,3,3,yes,yes,yes,no,yes,2,yes,furnished,Bandra West,12
+87502874,5058,6,5,3,no,yes,no,no,yes,2,yes,unfurnished,Boat Club,6
+29534639,3440,4,3,4,yes,yes,no,no,yes,2,yes,furnished,Jayanagar,28
+40369382,3641,4,3,2,yes,no,no,no,yes,3,no,unfurnished,Boat Club,29
+52886416,3235,4,3,3,yes,no,yes,no,yes,1,no,unfurnished,Poes Garden,7
+14913314,2327,2,2,1,yes,no,no,no,no,3,no,furnished,Gachibowli,23
+25667157,3401,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,Dwarka,16
+34729861,3875,4,3,3,yes,yes,no,no,yes,3,no,semi-furnished,Anna Nagar,19
+36845122,4495,5,5,2,yes,yes,yes,no,yes,3,no,semi-furnished,Gachibowli,23
+34031723,3763,4,3,3,yes,no,no,no,yes,3,no,semi-furnished,Hauz Khas,25
+22146725,2629,3,2,3,yes,no,yes,no,yes,2,no,semi-furnished,Adyar,20
+28829082,4211,5,4,2,yes,no,no,no,yes,2,no,semi-furnished,Whitefield,26
+39850938,3869,4,4,3,yes,yes,no,no,yes,2,no,furnished,Anna Nagar,13
+21903832,2754,3,3,1,no,no,no,no,yes,1,yes,semi-furnished,Greater Kailash,27
+37352644,3349,4,4,4,yes,no,yes,no,yes,1,yes,furnished,Gachibowli,8
+38567816,3448,4,3,3,yes,no,no,no,yes,2,yes,semi-furnished,Anna Nagar,10
+52915375,3385,4,4,3,yes,no,yes,no,yes,1,no,semi-furnished,Defence Colony,1
+60377287,3577,4,3,4,no,yes,no,no,yes,3,yes,semi-furnished,Juhu,4
+17952630,2618,3,2,4,yes,no,no,no,yes,2,no,unfurnished,HITEC City,24
+32953680,4043,5,4,4,yes,yes,no,yes,no,1,no,semi-furnished,Anna Nagar,22
+49449898,4172,5,4,3,yes,yes,yes,yes,yes,3,no,furnished,Jayanagar,3
+39738070,3611,4,4,4,yes,yes,no,no,yes,1,yes,unfurnished,Gachibowli,4
+49954615,4372,5,5,3,no,yes,no,no,yes,2,yes,unfurnished,Jayanagar,1
+53327463,3592,4,3,3,yes,no,no,no,yes,3,yes,furnished,Vasant Vihar,19
+30582524,2994,3,3,3,yes,no,no,no,yes,3,yes,unfurnished,Andheri West,12
+19354155,2570,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Salt Lake,19
+35226252,3795,4,4,4,yes,yes,yes,no,yes,2,yes,semi-furnished,Adyar,23
+31312011,3510,4,4,3,yes,yes,yes,no,yes,3,yes,unfurnished,Cyber City,28
+53215463,3605,4,4,3,yes,no,no,no,yes,1,no,unfurnished,Defence Colony,0
+16700929,2360,3,2,2,yes,no,no,no,yes,1,no,semi-furnished,Whitefield,20
+56064830,5068,6,5,4,yes,no,no,no,yes,1,no,semi-furnished,Jubilee Hills,10
+24798207,3140,3,3,2,yes,yes,no,yes,no,3,yes,semi-furnished,Powai,28
+36274382,2784,3,3,2,yes,no,no,no,yes,2,no,furnished,Koregaon Park,7
+68635592,3724,4,4,2,yes,no,yes,no,yes,1,yes,furnished,South Mumbai,13
+52798485,3668,4,4,3,yes,no,no,no,yes,3,no,semi-furnished,Boat Club,19
+33124316,2917,3,2,2,yes,yes,no,no,yes,3,yes,unfurnished,Whitefield,2
+55326694,3719,4,4,2,yes,yes,no,no,yes,3,no,furnished,South Mumbai,24
+83581930,5178,6,5,3,yes,yes,no,no,yes,1,no,furnished,Vasant Vihar,4
+52081196,4147,5,4,3,yes,yes,no,no,yes,2,yes,furnished,Koramangala,8
+26869345,3975,4,4,2,yes,yes,no,no,yes,3,no,furnished,Salt Lake,26
+29850760,3117,3,2,3,yes,no,no,no,yes,3,no,unfurnished,HITEC City,10
+78889669,4603,5,4,3,yes,yes,yes,no,yes,3,no,furnished,Vasant Vihar,4
+47811028,4023,4,4,3,yes,yes,no,no,yes,2,yes,semi-furnished,Koramangala,10
+41830486,3819,4,4,3,yes,no,no,no,yes,3,no,furnished,Jayanagar,6
+27438970,2859,3,3,2,no,yes,no,no,yes,2,yes,semi-furnished,Banjara Hills,22
+13506451,1913,2,2,1,no,no,yes,no,no,1,no,furnished,Indiranagar,21
+46327316,2717,3,3,1,yes,yes,yes,no,yes,1,yes,semi-furnished,Boat Club,19
+36694513,4069,4,4,2,yes,yes,no,no,yes,3,no,semi-furnished,Koramangala,23
+31656741,3700,4,4,3,yes,yes,no,no,yes,3,no,unfurnished,Koregaon Park,27
+34669906,2958,3,3,1,no,yes,no,no,yes,1,no,furnished,Powai,6
+16499677,1971,2,2,2,yes,no,no,no,no,3,no,unfurnished,Defence Colony,21
+44840608,2725,3,2,2,yes,yes,yes,no,yes,3,yes,furnished,Banjara Hills,0
+47331668,3603,4,4,4,no,yes,yes,no,yes,1,no,furnished,Koramangala,1
+16002090,1719,2,2,3,yes,no,no,no,yes,1,no,unfurnished,Jayanagar,14
+42425286,3725,4,4,2,yes,yes,no,no,yes,1,yes,semi-furnished,Indiranagar,11
+39496912,4300,5,4,4,yes,yes,yes,no,yes,2,yes,unfurnished,Anna Nagar,24
+42726104,2994,3,3,2,no,no,yes,no,yes,2,no,furnished,Hauz Khas,2
+26794735,4800,5,5,3,yes,yes,no,no,no,3,no,unfurnished,Dwarka,26
+35287954,3481,4,3,3,no,no,no,no,yes,1,no,semi-furnished,Andheri West,2
+31489021,3279,3,3,3,yes,no,yes,no,yes,3,no,semi-furnished,Jubilee Hills,22
+29145699,2893,3,2,3,yes,yes,no,no,yes,3,no,furnished,Whitefield,9
+57209602,4052,4,4,2,yes,no,yes,no,no,3,yes,semi-furnished,Poes Garden,18
+36091840,3254,3,3,2,yes,yes,no,no,no,3,no,semi-furnished,Indiranagar,6
+23547503,2835,3,3,1,yes,yes,no,no,yes,3,no,furnished,Jayanagar,25
+17174069,2469,3,2,3,yes,no,no,yes,yes,2,no,furnished,Kalyani Nagar,28
+21569373,2506,3,3,4,yes,no,yes,no,yes,2,no,furnished,Greater Kailash,28
+45406292,4501,5,5,2,yes,yes,yes,no,yes,3,yes,unfurnished,Banjara Hills,23
+30252682,2920,3,2,1,yes,yes,yes,no,yes,3,yes,semi-furnished,Anna Nagar,19
+56385031,3610,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,Boat Club,18
+44129831,4796,5,5,3,yes,yes,yes,no,no,3,no,furnished,Adyar,17
+37896451,3539,4,3,2,no,yes,no,no,yes,2,no,semi-furnished,Koramangala,10
+49803284,4434,5,5,4,no,yes,no,no,yes,2,yes,furnished,Andheri West,3
+28835550,3161,3,3,2,yes,yes,no,no,yes,3,no,furnished,Banjara Hills,24
+20546890,1984,2,2,4,yes,no,no,no,yes,1,no,furnished,Cyber City,14
+30789079,2771,3,2,1,yes,yes,yes,no,no,3,yes,semi-furnished,HITEC City,11
+48559029,2398,3,3,4,no,no,no,no,yes,1,no,furnished,South Mumbai,5
+30240070,3014,3,2,2,yes,yes,no,no,yes,3,yes,furnished,Jayanagar,19
+49838483,3836,4,4,3,no,yes,no,no,yes,3,no,semi-furnished,Boat Club,23
+28882338,2785,3,3,1,yes,no,no,no,yes,2,yes,semi-furnished,Powai,18
+71095243,3934,4,4,3,yes,no,no,no,yes,3,no,furnished,Poes Garden,0
+39048698,3725,4,4,3,yes,yes,no,yes,no,3,yes,furnished,Salt Lake,0
+54531655,4517,5,5,4,yes,yes,no,no,yes,3,no,semi-furnished,Juhu,24
+21058797,2854,3,2,4,yes,yes,no,no,yes,2,no,semi-furnished,Anna Nagar,26
+47237685,4453,5,5,2,yes,yes,yes,no,no,3,no,furnished,Hauz Khas,21
+49556356,5363,6,5,3,yes,no,no,no,yes,3,no,furnished,Indiranagar,21
+31957795,2900,3,3,2,yes,yes,no,no,yes,2,no,unfurnished,Koramangala,12
+27793883,2951,3,3,2,yes,yes,no,no,yes,3,yes,furnished,Andheri West,22
+21180907,2212,3,2,2,yes,yes,no,no,no,1,no,semi-furnished,Koramangala,16
+30470925,3159,3,3,1,yes,yes,no,no,yes,3,no,furnished,Gachibowli,13
+27292945,2761,3,3,4,no,yes,no,no,yes,2,no,semi-furnished,Gachibowli,8
+33419301,2967,3,3,2,no,no,no,yes,yes,3,yes,furnished,Powai,13
+22041480,1869,2,1,1,no,no,no,no,no,2,no,semi-furnished,Kalyani Nagar,1
+45834612,3696,4,4,2,yes,yes,yes,no,no,2,yes,unfurnished,Juhu,23
+43028319,3841,4,4,3,no,yes,no,no,yes,3,no,unfurnished,Juhu,23
+31897214,3162,3,3,1,yes,yes,no,no,yes,3,no,unfurnished,HITEC City,11
+34145067,2791,3,2,2,yes,yes,no,no,yes,3,no,semi-furnished,Jubilee Hills,11
+45654471,3848,4,4,2,no,yes,no,yes,yes,2,no,furnished,Poes Garden,26
+20415035,2956,3,3,3,yes,yes,no,no,no,3,no,semi-furnished,Jayanagar,26
+30675994,2718,3,3,3,yes,yes,no,no,yes,2,yes,semi-furnished,Salt Lake,2
+42323180,3637,4,3,4,yes,no,no,no,yes,3,no,furnished,HITEC City,1
+28018069,2790,3,3,2,no,yes,no,no,yes,2,no,furnished,Juhu,28
+46173571,4775,5,5,4,yes,yes,no,no,yes,2,yes,semi-furnished,Koramangala,24
+41794448,3691,4,4,3,yes,yes,no,no,yes,2,no,furnished,Gachibowli,0
+52091496,3569,4,3,3,yes,yes,yes,no,yes,1,no,furnished,Alipore,4
+22066395,2498,3,2,2,no,yes,no,no,yes,1,yes,semi-furnished,Defence Colony,29
+37374746,2752,3,3,1,yes,no,yes,no,yes,1,no,unfurnished,Koregaon Park,2
+34186984,2653,3,3,2,yes,yes,no,no,yes,1,yes,semi-furnished,Powai,9
+54546341,4451,5,5,2,yes,yes,no,no,yes,2,no,semi-furnished,Koregaon Park,5
+40935479,3964,4,4,2,yes,yes,no,no,yes,3,no,semi-furnished,Defence Colony,26
+49198306,4267,5,5,2,yes,yes,yes,no,yes,1,yes,furnished,Cyber City,12
+28810867,2787,3,3,1,yes,no,no,no,yes,2,no,furnished,Adyar,12
+44043210,2791,3,3,4,yes,yes,no,no,yes,2,no,semi-furnished,Vasant Vihar,12
+36496011,2667,3,2,2,yes,yes,yes,no,no,2,no,semi-furnished,Jubilee Hills,4
+58359849,3509,4,4,4,no,yes,no,no,yes,3,no,semi-furnished,Vasant Vihar,5
+26879575,2620,3,3,1,yes,yes,no,no,yes,1,yes,semi-furnished,Cyber City,19
+12218698,1676,2,2,1,no,no,no,no,no,0,no,unfurnished,Gachibowli,11
+19661622,1656,2,2,3,no,no,no,no,no,1,yes,furnished,Poes Garden,21
+33485010,2774,3,3,3,yes,no,no,no,yes,2,yes,unfurnished,Defence Colony,19
+27328557,3483,4,3,4,no,yes,yes,no,yes,2,no,semi-furnished,Salt Lake,14
+29381828,2685,3,2,2,yes,yes,no,no,no,2,no,furnished,Whitefield,1
+30274333,3089,3,2,1,no,yes,yes,no,yes,3,yes,furnished,Dwarka,2
+22117069,2716,3,2,2,yes,yes,no,no,yes,3,yes,semi-furnished,Cyber City,29
+35741977,2642,3,3,2,yes,no,yes,no,yes,2,no,furnished,Koregaon Park,8
+51843493,4365,5,4,3,yes,yes,yes,no,yes,3,no,semi-furnished,Bandra West,18
+28798559,3015,3,3,1,yes,yes,yes,no,yes,2,yes,furnished,Gachibowli,20
+65050563,3515,4,4,2,yes,yes,no,no,yes,2,no,semi-furnished,South Mumbai,8
+24115023,2589,3,2,3,yes,yes,no,no,yes,2,yes,semi-furnished,Kalyani Nagar,23
+29088902,2681,3,2,3,yes,yes,no,no,yes,3,no,furnished,Greater Kailash,18
+37264043,3706,4,4,4,yes,yes,no,no,yes,2,no,unfurnished,Koramangala,16
+39736626,3122,3,3,4,yes,no,yes,no,yes,3,no,semi-furnished,Juhu,19
+69161911,4570,5,4,2,yes,yes,yes,no,yes,3,no,furnished,Vasant Vihar,14
+30630255,2834,3,3,1,yes,yes,no,yes,no,3,yes,semi-furnished,Koramangala,17
+31779080,3503,4,3,4,yes,yes,no,yes,yes,3,yes,semi-furnished,Banjara Hills,28
+25391728,1884,2,2,2,yes,no,yes,no,yes,1,no,unfurnished,South Mumbai,20
+14074314,1831,2,1,1,yes,yes,no,no,yes,3,yes,furnished,Salt Lake,25
+28708182,2969,3,3,1,yes,yes,no,no,yes,3,yes,semi-furnished,Hauz Khas,29
+22941954,2759,3,2,2,yes,yes,no,no,no,2,no,semi-furnished,Kalyani Nagar,18
+80534416,4204,5,5,2,yes,yes,no,no,yes,1,no,furnished,South Mumbai,6
+32436010,3160,3,3,2,yes,no,no,no,yes,2,no,semi-furnished,HITEC City,8
+53617812,5116,6,5,2,yes,yes,no,no,yes,2,yes,semi-furnished,Anna Nagar,13
+25652536,2638,3,3,1,yes,no,no,yes,yes,1,no,unfurnished,Poes Garden,27
+42106316,3486,4,3,4,yes,yes,no,no,yes,2,no,unfurnished,South Mumbai,28
+36540455,2840,3,3,2,yes,no,no,no,yes,3,yes,semi-furnished,Andheri West,1
+48627445,3824,4,4,3,yes,yes,yes,no,yes,2,no,furnished,Koregaon Park,7
+37672544,3611,4,3,2,no,yes,yes,no,yes,2,yes,unfurnished,HITEC City,11
+28821337,2847,3,3,1,yes,yes,no,no,yes,3,yes,furnished,Dwarka,5
+70520659,3255,4,4,4,yes,yes,no,no,yes,1,yes,furnished,Boat Club,3
+23155464,2734,3,3,2,no,no,no,no,yes,1,no,semi-furnished,Koregaon Park,20
+32853893,3839,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Dwarka,5
+28241321,3479,4,4,2,yes,yes,no,no,yes,1,no,semi-furnished,Banjara Hills,28
+30228467,2824,3,2,1,yes,no,yes,no,yes,2,no,unfurnished,Koregaon Park,13
+52344922,4786,5,5,3,yes,no,yes,no,yes,3,no,unfurnished,Greater Kailash,11
+24126769,3158,3,3,3,yes,yes,yes,no,no,2,no,furnished,Dwarka,12
+27131259,2196,2,2,2,yes,no,no,no,no,2,no,semi-furnished,Hauz Khas,7
+34902727,3640,4,4,2,yes,no,yes,no,yes,3,yes,semi-furnished,Greater Kailash,28
+13090268,2023,2,2,1,yes,no,no,no,no,2,no,semi-furnished,Koregaon Park,24
+55656570,4668,5,5,4,yes,no,no,yes,yes,2,no,furnished,Powai,1
+24962639,1584,2,2,2,yes,no,no,no,yes,2,yes,furnished,Greater Kailash,12
+22421275,2878,3,3,2,yes,yes,yes,no,yes,2,yes,furnished,Whitefield,29
+26433318,2666,3,2,1,yes,no,no,no,yes,2,yes,furnished,Salt Lake,9
+13639983,2433,3,2,2,no,no,yes,no,no,1,no,furnished,Salt Lake,22
+27910523,2907,3,3,1,yes,no,no,no,yes,2,no,unfurnished,Whitefield,6
+48366910,3563,4,3,4,yes,no,yes,no,yes,3,no,unfurnished,Alipore,5
+48019976,4039,4,4,2,yes,yes,no,yes,yes,3,yes,semi-furnished,Cyber City,6
+23115516,2831,3,3,1,yes,yes,no,yes,yes,3,yes,semi-furnished,Dwarka,16
+34552596,3192,3,3,1,yes,no,yes,no,yes,2,yes,semi-furnished,Indiranagar,15
+44805507,3527,4,3,4,yes,no,no,no,yes,2,no,furnished,Greater Kailash,4
+35655766,2666,3,3,3,yes,no,yes,no,yes,2,no,semi-furnished,Boat Club,23
+39762070,4665,5,5,3,yes,yes,no,no,yes,3,yes,semi-furnished,Gachibowli,22
+21825992,3561,4,3,3,yes,yes,no,no,yes,2,no,unfurnished,Whitefield,29
+48930925,3655,4,3,2,yes,yes,no,no,yes,3,yes,unfurnished,South Mumbai,29
+27723325,2564,3,3,2,yes,yes,no,no,yes,2,yes,furnished,Hauz Khas,27
+30760234,2762,3,3,2,no,no,no,no,yes,3,no,furnished,Defence Colony,19
+23769371,2768,3,3,1,yes,no,yes,no,yes,2,no,unfurnished,Anna Nagar,20
+29549483,2521,3,2,1,yes,no,no,no,yes,3,no,semi-furnished,Bandra West,16
+19983161,2920,3,3,1,yes,yes,yes,no,no,3,yes,semi-furnished,Whitefield,29
+30530952,3094,3,3,1,yes,yes,yes,no,yes,3,yes,furnished,Indiranagar,26
+44213636,5281,6,5,3,no,yes,no,no,yes,3,no,semi-furnished,Powai,26
+50691337,2913,3,2,4,yes,yes,no,no,no,2,yes,furnished,Juhu,5
+60639772,3818,4,3,3,yes,yes,no,no,yes,2,no,unfurnished,Vasant Vihar,5
+54397733,5211,6,5,4,yes,yes,no,yes,yes,2,no,furnished,Adyar,7
+43315115,3201,3,3,3,no,yes,no,no,yes,3,no,semi-furnished,South Mumbai,21
+47297784,3423,4,4,3,no,no,no,no,yes,1,no,semi-furnished,Juhu,10
+32221121,3527,4,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Adyar,18
+46948130,3183,3,3,2,yes,yes,no,no,yes,2,no,unfurnished,South Mumbai,18
+29676207,2819,3,3,4,yes,no,no,yes,yes,2,no,unfurnished,Jubilee Hills,15
+8587046,1780,2,1,3,no,no,no,no,no,2,no,furnished,Indiranagar,25
+45136893,3545,4,4,4,yes,yes,yes,no,no,2,no,furnished,Koregaon Park,6
+53465472,3480,4,3,3,yes,yes,yes,no,no,2,yes,furnished,Juhu,13
+40422372,3866,4,4,4,yes,no,no,no,no,3,no,furnished,Cyber City,7
+21461915,3353,4,3,4,yes,yes,no,no,yes,1,no,unfurnished,Gachibowli,28
+13748867,1882,2,1,2,yes,yes,no,no,no,1,yes,unfurnished,Banjara Hills,24
+9819457,1856,2,1,3,yes,no,no,yes,no,1,yes,semi-furnished,Anna Nagar,28
+33076940,2701,3,3,3,yes,yes,yes,no,yes,1,yes,unfurnished,Kalyani Nagar,10
+20211070,2805,3,2,3,no,yes,no,no,yes,2,yes,semi-furnished,Whitefield,24
+38674733,2708,3,3,4,yes,no,no,yes,yes,2,no,semi-furnished,Bandra West,6
+44128559,3619,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,HITEC City,0
+32620833,2893,3,3,2,yes,yes,no,no,yes,3,yes,furnished,Salt Lake,3
+43015839,3873,4,4,2,yes,no,yes,no,yes,3,no,semi-furnished,Greater Kailash,13
+38874618,2643,3,2,2,yes,no,yes,no,yes,2,no,unfurnished,Boat Club,16
+43594851,3957,4,3,4,no,yes,no,no,yes,3,yes,semi-furnished,Gachibowli,0
+22315041,2877,3,3,3,yes,yes,no,no,no,2,yes,semi-furnished,Powai,28
+50671518,2963,3,3,2,yes,yes,no,no,no,3,yes,furnished,South Mumbai,18
+15674313,2274,3,2,2,yes,no,no,yes,no,1,no,semi-furnished,Juhu,29
+53084342,3424,4,4,4,yes,no,yes,no,yes,1,yes,semi-furnished,Juhu,13
+62241898,2992,3,3,2,yes,yes,no,no,yes,2,no,furnished,South Mumbai,4
+25815468,1768,2,2,2,no,no,no,yes,yes,0,no,furnished,Alipore,6
+20797539,2743,3,3,3,yes,yes,no,yes,yes,2,no,semi-furnished,Salt Lake,18
+47710311,4173,5,4,2,no,yes,no,no,yes,2,no,furnished,Jayanagar,0
+41905535,3510,4,4,3,yes,no,no,no,yes,2,no,semi-furnished,Indiranagar,4
+60960566,3808,4,4,2,yes,no,no,no,yes,3,no,furnished,Boat Club,14
+33251729,3524,4,4,3,yes,no,no,no,no,1,no,unfurnished,Adyar,8
+55835769,3166,4,3,3,no,yes,yes,no,yes,2,yes,unfurnished,Vasant Vihar,7
+36734357,4496,5,4,4,yes,yes,no,no,yes,3,no,unfurnished,Kalyani Nagar,25
+73678428,4750,5,5,4,yes,yes,yes,no,yes,2,yes,semi-furnished,Defence Colony,1
+53669524,3489,4,3,2,yes,yes,no,no,yes,1,yes,semi-furnished,Defence Colony,5
+53653488,4073,4,4,4,yes,no,no,no,yes,3,yes,furnished,Greater Kailash,4
+31720692,3008,3,3,3,yes,no,no,no,yes,2,no,semi-furnished,Hauz Khas,17
+44352373,2928,3,3,1,yes,no,no,yes,yes,2,no,furnished,Boat Club,17
+46560442,3993,4,4,4,yes,no,yes,yes,yes,2,no,unfurnished,Powai,2
+22394472,3073,3,3,2,yes,yes,yes,no,yes,3,no,semi-furnished,Gachibowli,26
+12090577,1551,2,2,2,yes,no,no,no,yes,0,no,furnished,Salt Lake,17
+44639322,3777,4,4,3,yes,yes,no,no,yes,3,no,unfurnished,Jubilee Hills,11
+39319038,3688,4,4,4,yes,no,no,no,yes,2,no,furnished,Andheri West,5
+37847786,2940,3,3,1,no,no,no,no,yes,3,yes,furnished,Adyar,2
+37718310,3219,4,4,2,yes,no,no,no,yes,1,no,semi-furnished,HITEC City,2
+29449354,2566,3,2,4,yes,yes,no,no,yes,2,no,semi-furnished,Kalyani Nagar,9
+40245436,3906,4,4,4,yes,no,no,no,yes,2,yes,furnished,Whitefield,6
+36096739,4956,5,5,4,yes,yes,no,no,yes,3,no,unfurnished,Whitefield,23
+25682639,2837,3,3,2,yes,yes,no,no,yes,1,no,furnished,Dwarka,5
+35948918,2856,3,3,2,no,no,yes,no,yes,3,yes,semi-furnished,Hauz Khas,14
+60873433,2730,3,3,2,yes,yes,no,yes,yes,1,yes,furnished,Boat Club,4
+31824944,2743,3,3,1,yes,yes,no,no,yes,1,no,semi-furnished,HITEC City,5
+36931852,3000,3,3,2,yes,yes,no,no,yes,2,no,furnished,Anna Nagar,5
+52407432,3753,4,3,3,no,yes,no,no,yes,3,no,semi-furnished,Bandra West,1
+30880037,3053,3,3,4,yes,yes,no,yes,yes,3,yes,furnished,Indiranagar,23
+23836599,2496,3,3,1,yes,no,no,yes,no,1,yes,semi-furnished,Andheri West,14
+41883376,3323,4,3,2,yes,no,no,no,yes,2,no,semi-furnished,Bandra West,11
+20727258,3385,4,3,2,yes,no,no,yes,yes,2,no,unfurnished,Whitefield,27
+49333348,3480,4,4,4,yes,no,no,yes,yes,1,yes,semi-furnished,Alipore,6
+34944292,2747,3,3,2,yes,yes,no,no,yes,2,no,unfurnished,Jubilee Hills,8
+46673722,4174,5,5,4,yes,yes,no,no,yes,1,no,furnished,Koramangala,13
+48242485,2689,3,2,1,yes,no,yes,yes,yes,3,no,semi-furnished,Vasant Vihar,5
+63860422,4836,5,5,3,no,yes,no,no,yes,3,no,furnished,Poes Garden,21
+34127264,2759,3,3,3,no,yes,no,no,yes,1,no,furnished,Juhu,19
+39221656,4595,5,5,3,no,no,no,no,yes,3,no,semi-furnished,Koregaon Park,25
+19067258,1743,2,2,1,yes,no,no,no,no,0,no,furnished,Jayanagar,8
+30927866,3210,3,3,2,no,yes,no,no,yes,3,no,unfurnished,Koregaon Park,16
+52254139,4675,5,5,2,yes,yes,yes,no,yes,3,yes,furnished,Powai,15
+38960245,3716,4,3,3,yes,yes,no,yes,yes,3,yes,furnished,Anna Nagar,18
+41581453,3046,3,3,2,no,yes,no,no,yes,3,yes,unfurnished,Juhu,17
+57573873,3789,4,4,4,yes,yes,no,no,yes,2,no,furnished,Juhu,10
+33568638,3034,3,3,3,yes,yes,yes,no,yes,3,no,furnished,Greater Kailash,19
+46205927,3732,4,4,4,yes,yes,yes,no,yes,2,no,semi-furnished,Banjara Hills,6
+35021633,3120,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Powai,9
+50869808,2921,3,3,2,yes,no,yes,no,yes,2,yes,semi-furnished,South Mumbai,17
+64116655,3366,4,3,4,yes,yes,yes,no,yes,2,yes,furnished,Juhu,3
+33551088,2961,3,3,3,yes,yes,no,no,yes,2,no,furnished,Hauz Khas,18
+35537560,3541,4,3,3,yes,no,no,no,yes,1,no,semi-furnished,Whitefield,1
+44108184,5187,6,5,4,yes,no,yes,no,yes,1,yes,semi-furnished,Whitefield,17
+66977181,2826,3,2,1,yes,yes,no,no,yes,3,yes,semi-furnished,South Mumbai,0
+29861873,2661,3,3,1,yes,no,no,no,yes,1,no,furnished,Alipore,18
+23686756,2750,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Whitefield,16
+30505658,2745,3,3,1,yes,yes,no,no,yes,2,no,semi-furnished,Whitefield,3
+25435015,2790,3,2,1,yes,no,yes,no,yes,3,no,semi-furnished,Koramangala,21
+30922290,2664,3,2,3,yes,no,yes,no,yes,2,yes,furnished,Koregaon Park,19
+56445701,4588,5,4,3,yes,no,yes,yes,yes,3,no,semi-furnished,Alipore,10
+20013617,2712,3,3,2,yes,yes,no,no,no,2,no,furnished,HITEC City,25
+22508342,2707,3,3,2,yes,yes,no,no,yes,2,no,furnished,Powai,27
+38239273,4635,5,5,3,yes,yes,yes,no,yes,2,no,semi-furnished,Whitefield,18
+19480227,2860,3,3,4,yes,yes,no,yes,yes,1,no,furnished,Gachibowli,28
+41518213,2730,3,3,1,yes,yes,no,no,yes,3,yes,furnished,Powai,2
+23385693,2481,3,2,1,yes,no,no,no,no,2,no,semi-furnished,Powai,13
+64540711,3917,4,4,2,yes,yes,no,yes,yes,3,no,semi-furnished,South Mumbai,15
+66756613,3805,4,4,4,yes,yes,no,no,yes,3,no,furnished,Boat Club,11
+36667465,3796,4,4,2,yes,yes,no,no,yes,3,no,semi-furnished,Jubilee Hills,24
+16052399,1750,2,2,1,yes,no,no,no,no,2,no,semi-furnished,Bandra West,19
+12687113,1716,2,1,2,yes,no,yes,no,no,0,no,unfurnished,Hauz Khas,19
+12378950,1861,2,1,1,no,no,no,no,yes,3,no,semi-furnished,Koramangala,23
+33127356,3551,4,4,2,yes,yes,no,no,yes,1,no,unfurnished,Cyber City,16
+39741675,4754,5,5,3,no,yes,no,no,yes,3,no,semi-furnished,Indiranagar,25
+34002000,3007,3,3,2,yes,yes,no,yes,no,3,yes,furnished,Koramangala,16
+39901966,2134,2,2,2,yes,no,no,no,no,1,yes,furnished,Poes Garden,7
+76122978,4264,5,4,2,yes,no,no,no,yes,2,no,semi-furnished,Boat Club,2
+29090312,2877,3,3,4,yes,no,no,no,yes,2,yes,semi-furnished,Bandra West,26
+27690813,2900,3,3,1,yes,yes,no,no,yes,3,no,furnished,Dwarka,3
+38180963,3626,4,4,3,yes,yes,yes,no,yes,2,yes,furnished,Andheri West,16
+37513221,4516,5,5,2,yes,yes,yes,yes,no,1,yes,semi-furnished,Jayanagar,26
+34417716,3797,4,4,2,yes,yes,yes,no,yes,3,no,semi-furnished,Greater Kailash,28
+43304391,3345,4,3,2,yes,no,yes,no,yes,2,no,semi-furnished,Jubilee Hills,6
+27178242,3186,4,3,3,yes,yes,no,yes,yes,2,yes,semi-furnished,Jayanagar,26
+32721172,2851,3,3,2,yes,yes,yes,no,yes,2,yes,semi-furnished,Koregaon Park,20
+30759761,2629,3,3,3,yes,no,yes,yes,yes,2,yes,semi-furnished,Koramangala,17
+39384220,2779,3,3,2,yes,yes,no,yes,yes,1,no,furnished,Banjara Hills,2
+57794115,3599,4,4,2,yes,yes,no,no,yes,2,no,furnished,Juhu,8
+26850214,2475,3,2,3,yes,no,yes,no,no,2,no,semi-furnished,Gachibowli,3
+51793174,3821,4,3,2,yes,no,yes,no,yes,3,no,furnished,Koregaon Park,0
+20313123,2423,3,2,2,yes,no,no,no,no,3,no,furnished,Bandra West,26
+66765567,2843,3,2,3,yes,yes,no,no,yes,3,yes,semi-furnished,South Mumbai,0
+24017054,2781,3,3,2,yes,no,no,no,yes,3,no,semi-furnished,Gachibowli,16
+56635274,3642,4,3,4,no,yes,no,no,yes,3,no,semi-furnished,South Mumbai,15
+30229619,3854,4,4,4,yes,no,yes,no,yes,2,no,unfurnished,Dwarka,7
+22791235,1982,2,2,1,no,no,no,no,no,2,yes,furnished,Hauz Khas,15
+27310190,2984,3,3,2,yes,yes,yes,no,yes,2,no,semi-furnished,Dwarka,4
+21334044,1879,2,2,2,yes,no,yes,no,no,3,no,unfurnished,Indiranagar,9
+44492678,3769,4,4,4,yes,yes,no,no,yes,3,yes,furnished,Adyar,8
+45456600,2839,3,3,2,yes,yes,no,no,yes,3,no,semi-furnished,South Mumbai,18
+36530125,3512,4,3,4,yes,yes,no,no,yes,2,no,unfurnished,Adyar,8
+30423439,2178,2,2,1,no,no,no,no,no,2,yes,unfurnished,Jubilee Hills,1
+45221316,4459,5,5,3,yes,yes,yes,no,yes,2,yes,furnished,Salt Lake,3
+64510898,3695,4,4,2,no,no,no,no,yes,2,no,semi-furnished,South Mumbai,6
+45074513,4868,5,5,2,yes,yes,no,no,yes,3,no,semi-furnished,Anna Nagar,17
+40159891,3121,3,3,4,yes,yes,yes,no,yes,3,yes,unfurnished,Cyber City,5
+55194743,3016,3,3,1,yes,no,no,no,yes,3,yes,furnished,Boat Club,13
+24574113,2932,3,3,4,no,yes,no,no,yes,2,yes,semi-furnished,HITEC City,23
+29611387,2783,3,3,3,yes,yes,no,no,yes,2,no,unfurnished,Jayanagar,9
+61039597,3386,4,4,2,yes,yes,yes,no,yes,2,yes,semi-furnished,Vasant Vihar,10
+38158248,2648,3,3,1,yes,yes,no,no,no,2,no,semi-furnished,Poes Garden,14
+50945560,4773,5,5,4,yes,yes,no,no,yes,3,no,furnished,HITEC City,7
+21677438,2136,2,2,3,no,no,no,no,no,3,yes,semi-furnished,Powai,13
+34475975,3012,3,2,1,yes,yes,yes,no,yes,3,no,unfurnished,Jayanagar,5
+39615957,2974,3,3,4,yes,yes,no,no,yes,2,no,semi-furnished,Koramangala,2
+40296015,3737,4,4,4,yes,yes,yes,yes,yes,2,no,semi-furnished,Andheri West,5
+33738619,2487,3,2,3,yes,no,no,no,yes,2,no,unfurnished,Alipore,6
+35047504,4641,5,5,2,yes,no,no,no,no,2,no,unfurnished,Cyber City,24
+30588994,2941,3,3,3,no,yes,no,no,yes,2,yes,semi-furnished,Salt Lake,2
+30105106,2925,3,3,2,yes,no,no,no,yes,3,yes,unfurnished,Jayanagar,14
+20274153,2791,3,2,3,yes,yes,no,no,yes,2,yes,semi-furnished,Andheri West,29
+28891026,2747,3,2,2,yes,no,no,no,yes,3,no,semi-furnished,Indiranagar,12
+23205347,2101,2,2,3,yes,no,no,no,yes,3,no,unfurnished,Adyar,8
+35128124,2940,3,3,2,yes,yes,no,no,no,3,no,semi-furnished,Vasant Vihar,21
+21203864,2826,3,3,1,no,no,yes,no,yes,2,no,unfurnished,HITEC City,21
+22527380,2936,3,3,1,no,no,yes,no,yes,3,no,furnished,Dwarka,12
+45196358,2762,3,3,2,no,yes,no,no,no,1,no,unfurnished,South Mumbai,7
+26267626,3529,4,3,2,yes,yes,no,no,yes,2,no,semi-furnished,Gachibowli,24
+40303636,3779,4,4,3,yes,yes,no,no,yes,2,yes,semi-furnished,Jayanagar,12
+25583860,2874,3,3,1,yes,yes,no,no,yes,3,no,furnished,Dwarka,8
+34055936,4082,4,4,3,no,yes,yes,no,yes,3,yes,furnished,Salt Lake,16
+75080564,4435,5,5,4,yes,yes,no,no,yes,1,yes,semi-furnished,Juhu,1
+78845989,4987,5,5,4,yes,no,no,yes,yes,3,yes,furnished,Juhu,6
+46404564,4558,5,5,3,yes,yes,yes,no,yes,3,yes,furnished,Gachibowli,12
+38888511,2927,3,3,1,yes,yes,no,no,yes,3,no,semi-furnished,Powai,2
+59784588,3458,4,3,2,yes,no,no,no,yes,1,no,unfurnished,Poes Garden,0
+48031793,3959,4,4,3,yes,yes,no,no,yes,3,yes,furnished,Anna Nagar,7
+76464132,5121,6,5,4,yes,yes,yes,no,yes,2,no,furnished,Boat Club,21
+29383015,1648,2,1,3,yes,no,no,yes,no,1,yes,semi-furnished,Juhu,7
+34069718,2998,3,3,3,yes,yes,no,no,no,3,yes,semi-furnished,Anna Nagar,10
+36934078,2757,3,3,1,no,yes,no,no,yes,2,no,furnished,Banjara Hills,3
+39885192,2991,3,3,4,yes,yes,no,yes,yes,3,yes,semi-furnished,Juhu,23
+23299583,1753,2,1,2,yes,no,no,no,no,0,no,unfurnished,Juhu,8
+26279116,2846,3,2,1,yes,no,no,no,yes,3,yes,unfurnished,HITEC City,18
+42050068,4423,5,5,3,yes,yes,no,no,yes,3,no,unfurnished,Powai,19
+34584783,2847,3,2,3,yes,no,yes,yes,no,2,yes,semi-furnished,Anna Nagar,4
+17201351,2761,3,3,1,no,yes,yes,no,yes,1,no,unfurnished,Gachibowli,26
+21429133,2801,3,3,4,yes,no,no,yes,yes,2,no,semi-furnished,Indiranagar,25
+21112617,2437,3,2,3,yes,no,no,no,no,1,no,furnished,Whitefield,11
+45752348,3132,4,3,4,yes,no,no,yes,yes,2,no,semi-furnished,Bandra West,4
+42235316,3670,4,4,4,yes,yes,no,no,no,2,yes,semi-furnished,Alipore,18
+74001304,3572,4,4,3,yes,yes,yes,no,yes,2,yes,unfurnished,South Mumbai,6
+27227577,2787,3,3,3,no,yes,yes,yes,yes,1,no,furnished,HITEC City,15
+38658789,2228,2,2,1,yes,no,no,yes,no,2,no,semi-furnished,Boat Club,6
+37587571,3424,4,4,3,no,yes,no,no,yes,2,yes,semi-furnished,Kalyani Nagar,12
+25879232,3035,3,3,2,yes,yes,yes,no,yes,3,no,unfurnished,Andheri West,20
+33198064,3916,4,3,4,yes,yes,yes,no,no,3,no,unfurnished,Greater Kailash,24
+30933821,3037,3,3,1,yes,no,yes,yes,yes,3,yes,semi-furnished,Andheri West,15
+65322295,5608,6,5,3,yes,yes,yes,no,yes,3,yes,furnished,Powai,7
+29251166,3023,3,3,2,yes,yes,no,no,yes,3,no,furnished,Dwarka,1
+41080778,3978,4,4,3,yes,yes,no,no,yes,1,no,semi-furnished,Koregaon Park,16
+48503358,3467,4,4,3,yes,yes,yes,no,yes,2,no,semi-furnished,Poes Garden,21
+37046575,2969,3,3,2,yes,yes,no,no,yes,3,yes,semi-furnished,Indiranagar,10
+51328402,3435,4,3,4,yes,no,yes,no,yes,3,yes,furnished,Defence Colony,11
+44578678,3465,4,4,4,yes,yes,yes,no,yes,2,no,furnished,Banjara Hills,8
+33780917,2875,3,3,1,yes,yes,no,no,no,3,yes,furnished,Andheri West,7
+31253924,2717,3,3,1,yes,yes,yes,no,yes,1,no,furnished,Jayanagar,10
+33866374,2155,3,2,3,yes,no,no,no,no,2,no,furnished,Defence Colony,5
+46101877,3398,4,4,4,yes,yes,yes,no,yes,1,yes,furnished,Kalyani Nagar,4
+55865255,4328,5,4,2,yes,yes,no,no,yes,3,yes,semi-furnished,Jubilee Hills,9
+27080603,2660,3,3,2,no,yes,no,no,yes,2,yes,furnished,Gachibowli,15
+62228205,5306,6,5,3,yes,no,yes,no,yes,2,no,unfurnished,Koregaon Park,3
+9630141,1574,2,1,1,yes,no,no,no,yes,1,no,furnished,Cyber City,26
+24126164,2863,3,2,3,yes,yes,yes,no,yes,3,yes,semi-furnished,Andheri West,26
+29143067,1812,2,1,1,no,no,no,no,no,1,yes,furnished,South Mumbai,14
+49904501,2838,3,2,2,yes,yes,no,no,yes,3,yes,furnished,Vasant Vihar,13
+68809239,5086,6,5,4,yes,no,yes,no,yes,1,yes,semi-furnished,Hauz Khas,2
+14020560,1853,2,2,1,yes,no,no,no,yes,0,no,semi-furnished,Powai,21
+27226648,2649,3,3,3,yes,yes,no,no,yes,2,no,semi-furnished,Koregaon Park,19
+36667489,3977,5,5,4,yes,yes,no,no,no,1,no,furnished,Whitefield,9
+31644874,2785,3,3,3,yes,no,no,no,no,2,no,semi-furnished,Jayanagar,1
+31003807,2542,3,2,1,yes,yes,yes,no,yes,1,no,unfurnished,Alipore,14
+28601659,2995,3,3,1,yes,no,no,no,yes,2,no,semi-furnished,Cyber City,14
+51694399,3577,4,4,4,yes,yes,no,no,yes,2,no,semi-furnished,Defence Colony,6
+39159991,3787,4,4,4,yes,yes,no,no,no,2,no,semi-furnished,Koregaon Park,14
+23383487,2774,3,2,2,no,yes,yes,no,yes,2,no,semi-furnished,Whitefield,14
+39011695,3970,4,4,2,yes,yes,no,no,yes,3,no,semi-furnished,Indiranagar,17
+30902390,3018,3,3,3,yes,no,no,no,no,3,no,furnished,Powai,12
+46288950,4336,5,4,2,yes,yes,no,yes,yes,2,yes,semi-furnished,HITEC City,10
+36340374,3365,4,4,2,yes,no,yes,no,yes,2,no,furnished,Jayanagar,11
+10180600,1572,2,1,1,yes,yes,yes,no,yes,1,no,unfurnished,HITEC City,25
+26960600,2684,3,3,1,yes,no,yes,no,no,2,no,unfurnished,Banjara Hills,13
+32483712,2642,3,3,2,no,yes,no,no,yes,2,no,semi-furnished,Greater Kailash,8
+24374089,2747,3,3,1,yes,no,no,no,yes,2,no,semi-furnished,Koramangala,21
+34735018,3586,4,4,4,yes,yes,no,no,yes,2,no,furnished,Gachibowli,13
+37069314,2959,3,3,2,yes,no,no,yes,yes,2,no,semi-furnished,Juhu,17
+14073536,1599,2,2,2,yes,no,yes,no,yes,0,no,semi-furnished,Defence Colony,24
+64893716,4518,5,5,2,no,yes,no,no,yes,1,yes,semi-furnished,Vasant Vihar,16
+38280993,2259,2,2,2,no,no,no,no,yes,3,no,semi-furnished,South Mumbai,10
+35665757,1997,2,2,2,yes,no,no,yes,no,0,no,furnished,Juhu,1
+55002060,3916,4,4,4,no,yes,no,no,yes,3,yes,unfurnished,Hauz Khas,0
+32371191,1853,2,1,3,yes,no,yes,no,yes,1,no,semi-furnished,Bandra West,1
+54255750,5255,6,5,4,no,yes,no,no,no,1,no,furnished,Cyber City,3
+42493483,3991,4,4,3,yes,yes,no,no,no,2,yes,semi-furnished,Banjara Hills,14
+29904672,2816,3,2,3,yes,yes,no,no,yes,3,yes,semi-furnished,Hauz Khas,24
+21969170,3120,3,3,2,yes,no,no,no,yes,3,no,unfurnished,Salt Lake,17
+38957815,4283,5,4,3,yes,yes,no,no,yes,3,no,semi-furnished,Powai,22
+26767093,2488,3,2,1,no,no,no,yes,yes,1,yes,semi-furnished,South Mumbai,29
+62651439,3594,4,3,4,yes,yes,no,yes,yes,1,yes,unfurnished,Vasant Vihar,4
+44744034,3563,4,4,4,yes,yes,no,no,no,1,no,unfurnished,Bandra West,7
+23753835,2650,3,3,2,yes,yes,yes,no,yes,1,no,furnished,Gachibowli,19
+39743127,2536,3,2,1,yes,yes,no,yes,yes,1,yes,semi-furnished,Greater Kailash,2
+23683548,2872,3,3,2,yes,yes,yes,no,yes,2,no,unfurnished,Indiranagar,25
+58931480,5132,6,5,3,yes,yes,yes,yes,yes,2,yes,unfurnished,Kalyani Nagar,4
+27980749,2843,3,3,1,no,yes,no,no,yes,1,no,unfurnished,Powai,12
+71444765,5359,6,5,2,yes,yes,no,no,yes,3,no,semi-furnished,South Mumbai,29
+23983905,1720,2,1,3,yes,no,yes,no,no,0,yes,furnished,Cyber City,6
+50052920,3060,3,3,4,no,yes,no,no,yes,3,no,semi-furnished,Juhu,3
+26151994,2637,3,3,2,yes,yes,no,no,yes,2,no,furnished,Defence Colony,28
+47095362,3449,4,4,2,yes,no,no,no,yes,2,yes,unfurnished,Defence Colony,12
+14725929,1724,2,1,2,no,no,no,no,yes,2,no,semi-furnished,Jubilee Hills,18
+50167841,3872,4,4,4,yes,yes,no,no,yes,3,yes,furnished,Defence Colony,20
+39500302,3548,4,3,3,yes,yes,yes,yes,yes,2,no,unfurnished,Bandra West,19
+37084239,2688,3,3,2,yes,yes,no,no,yes,1,yes,furnished,Bandra West,17
+31567001,3094,3,2,4,yes,no,no,no,yes,3,yes,unfurnished,Andheri West,10
+30332682,2845,3,3,1,yes,yes,no,no,yes,2,no,semi-furnished,HITEC City,10
+24323214,3630,4,4,2,no,yes,no,no,yes,2,no,furnished,Dwarka,19
+51047175,2674,3,2,1,yes,yes,no,no,yes,3,no,furnished,Vasant Vihar,4
+25607930,2570,3,2,1,yes,yes,no,no,yes,2,no,semi-furnished,Cyber City,15
+34821563,3599,4,4,2,yes,yes,yes,no,yes,2,no,semi-furnished,Alipore,28
+35059497,3136,4,3,2,yes,yes,no,no,yes,1,yes,unfurnished,Greater Kailash,17
+66068422,4792,5,5,3,no,no,no,no,yes,3,yes,unfurnished,Bandra West,2
+41360060,3652,4,4,3,yes,yes,no,no,yes,2,no,semi-furnished,Poes Garden,29
+56093272,3715,4,3,3,yes,yes,yes,no,no,3,no,semi-furnished,Poes Garden,11
+10143019,1697,2,2,1,no,no,no,no,no,2,no,furnished,Defence Colony,26
+36766482,3586,4,3,2,yes,yes,no,yes,yes,2,no,furnished,Koregaon Park,19
+47176128,2770,3,3,4,yes,no,no,no,yes,2,yes,furnished,Juhu,10
+20118874,2016,2,2,1,yes,no,no,no,yes,3,yes,furnished,Kalyani Nagar,22
+29754071,3528,4,4,3,no,yes,yes,no,yes,3,no,unfurnished,Jayanagar,21
+35230918,4686,5,5,2,yes,no,no,no,yes,1,no,unfurnished,Andheri West,22
+29370233,2971,3,3,2,yes,yes,yes,no,yes,3,no,semi-furnished,Banjara Hills,21
+40777161,2743,3,3,2,yes,yes,no,no,yes,1,yes,semi-furnished,Bandra West,10
+42621512,3474,4,3,2,no,yes,yes,yes,no,2,no,semi-furnished,Banjara Hills,0
+34935765,3853,4,4,2,yes,yes,no,no,no,2,no,furnished,Jayanagar,16
+40298611,3012,3,3,4,yes,no,no,no,yes,2,no,unfurnished,Defence Colony,8
+89563751,4043,5,4,4,yes,no,yes,yes,yes,3,yes,furnished,South Mumbai,0
+23089577,1304,2,1,3,yes,no,no,no,no,0,no,furnished,Juhu,7
+25849925,2715,3,3,1,yes,yes,no,no,yes,2,yes,furnished,Koregaon Park,29
+43980154,2809,3,2,2,yes,yes,yes,no,yes,3,yes,unfurnished,Defence Colony,9
+30046001,3377,4,3,2,yes,yes,no,yes,yes,3,yes,semi-furnished,Dwarka,8
+31901728,2334,3,2,2,no,no,yes,no,no,2,yes,semi-furnished,Alipore,9
+40121028,4096,4,4,2,yes,no,no,no,yes,3,yes,semi-furnished,Powai,19
+25853231,2699,3,3,2,yes,no,no,no,yes,2,no,unfurnished,Greater Kailash,18
+13275759,1865,2,2,1,yes,no,yes,no,no,1,no,unfurnished,Whitefield,16
+44403068,3438,4,4,3,yes,yes,no,no,yes,2,yes,semi-furnished,Hauz Khas,14
+44621071,2907,3,3,2,no,yes,yes,no,yes,2,yes,furnished,Greater Kailash,2
+50937519,4202,5,4,4,yes,yes,yes,no,no,3,no,furnished,Jubilee Hills,10
+32072950,3311,3,3,2,no,yes,no,no,no,2,yes,semi-furnished,HITEC City,11
+37821959,3410,4,3,4,yes,yes,yes,no,yes,2,no,semi-furnished,Alipore,20
+34643311,3954,4,3,2,yes,yes,yes,no,no,3,yes,furnished,Gachibowli,19
+50389162,2715,3,3,2,no,no,no,no,yes,3,no,unfurnished,Boat Club,3
+28474160,3781,4,3,4,no,yes,yes,yes,yes,3,yes,furnished,Whitefield,27
+45055932,3742,4,4,2,yes,yes,no,no,yes,1,yes,furnished,Hauz Khas,18
+41503454,4555,5,4,2,yes,yes,yes,no,yes,2,yes,furnished,Jayanagar,25
+15556300,1845,2,2,2,yes,yes,no,no,no,0,no,furnished,Dwarka,9
+44784346,3784,4,4,3,no,yes,no,no,yes,2,yes,furnished,Hauz Khas,17
+28970424,3929,4,4,3,yes,no,no,no,no,2,no,furnished,Jayanagar,24
+48770625,4918,6,5,4,no,yes,no,no,yes,2,yes,semi-furnished,Andheri West,10
+21060272,1557,2,1,2,yes,no,yes,no,no,2,no,furnished,Hauz Khas,11
+22608788,2759,3,3,1,yes,yes,no,no,yes,2,no,furnished,Kalyani Nagar,26
+43065872,3836,4,4,3,yes,no,no,no,yes,3,yes,semi-furnished,Cyber City,9
+34519444,3743,4,3,4,no,yes,no,no,yes,2,no,unfurnished,Koramangala,16
+38007124,3038,3,3,1,no,yes,no,no,yes,3,no,furnished,Alipore,12
+20509014,2553,3,2,2,yes,no,no,no,yes,1,yes,furnished,Jayanagar,26
+39370002,3282,4,3,3,yes,yes,yes,no,no,1,yes,furnished,Juhu,27
+39780315,3025,3,3,1,yes,yes,no,no,yes,3,yes,semi-furnished,Kalyani Nagar,4
+32626532,3477,4,3,4,yes,yes,no,yes,yes,1,yes,semi-furnished,Anna Nagar,21
+34680493,4399,5,4,2,yes,no,no,no,yes,2,yes,semi-furnished,Salt Lake,16
+27985300,2556,3,2,1,yes,yes,yes,no,yes,2,no,unfurnished,Adyar,10
+43549407,3007,3,3,2,yes,yes,no,no,yes,2,no,semi-furnished,Poes Garden,16
+44936550,3404,4,3,4,yes,yes,no,no,yes,2,no,semi-furnished,South Mumbai,26
+50304358,2932,3,3,2,yes,yes,no,yes,yes,2,no,unfurnished,Vasant Vihar,5
+36752999,3488,4,4,4,yes,no,no,no,yes,1,no,furnished,Koramangala,15
+30624902,3488,4,3,4,no,yes,yes,no,yes,3,no,unfurnished,Whitefield,11
+63318617,3998,4,4,2,yes,no,no,no,yes,3,yes,semi-furnished,Juhu,7
+72629882,3968,4,4,2,yes,yes,no,no,yes,3,no,furnished,Vasant Vihar,0
+45174341,3757,4,4,3,yes,yes,no,no,yes,1,no,semi-furnished,Bandra West,14
+45431172,3109,3,3,1,yes,yes,no,no,yes,2,no,unfurnished,Alipore,1
+27622543,3355,4,3,4,no,yes,no,no,yes,1,no,unfurnished,Kalyani Nagar,19
+20105039,1757,2,2,2,yes,yes,yes,no,no,1,yes,semi-furnished,Alipore,21
+37725823,3706,4,3,3,yes,yes,no,no,yes,2,yes,unfurnished,Whitefield,5
+28692815,3284,3,3,2,yes,yes,no,no,yes,3,no,semi-furnished,Koregaon Park,25
+39622203,2954,3,3,1,yes,yes,no,yes,yes,3,no,semi-furnished,Koramangala,3
+32898779,2679,3,3,2,yes,yes,no,no,yes,1,no,semi-furnished,Cyber City,5
+26776184,1825,2,2,4,yes,no,yes,no,no,0,no,semi-furnished,Vasant Vihar,11
+35433151,3553,4,3,3,yes,yes,no,no,yes,3,yes,unfurnished,HITEC City,16
+29770542,3584,4,4,4,yes,no,no,no,yes,1,no,unfurnished,Banjara Hills,23
+32670777,2869,3,3,2,yes,yes,yes,no,yes,3,no,furnished,Jubilee Hills,20
+35572958,3493,4,4,3,yes,yes,yes,no,yes,3,no,furnished,Salt Lake,4
+42163913,2668,3,3,2,yes,yes,yes,yes,yes,2,no,unfurnished,Boat Club,17
+39498755,4638,5,4,3,yes,yes,yes,no,yes,3,no,unfurnished,Salt Lake,7
+30448285,3255,4,3,3,yes,yes,no,no,yes,1,yes,furnished,Salt Lake,12
+36623445,2987,3,3,2,yes,yes,yes,no,yes,2,no,unfurnished,Greater Kailash,9
+36794004,3135,3,3,2,yes,yes,no,no,yes,3,no,unfurnished,Indiranagar,6
+29956562,2424,3,3,2,yes,no,no,yes,yes,1,no,unfurnished,Jubilee Hills,9
+41193559,4361,5,4,3,yes,yes,no,no,yes,2,yes,unfurnished,Indiranagar,22
+42714842,4351,5,4,3,yes,no,yes,no,yes,2,no,semi-furnished,Whitefield,2
+33649749,2639,3,3,1,yes,no,no,no,yes,2,no,furnished,Greater Kailash,9
+34921130,2446,3,2,1,no,no,yes,no,no,1,yes,furnished,South Mumbai,21
+13990148,1839,2,1,2,no,no,no,no,no,2,no,unfurnished,Indiranagar,13
+36606222,3831,4,3,2,yes,no,yes,no,yes,3,no,unfurnished,Koregaon Park,19
+42825764,3748,4,4,4,no,yes,no,yes,yes,2,no,unfurnished,Koramangala,5
+14442754,2198,3,2,2,no,yes,no,no,no,1,yes,semi-furnished,Jayanagar,26
+30290629,2669,3,2,3,yes,yes,yes,no,yes,2,yes,semi-furnished,Andheri West,12
