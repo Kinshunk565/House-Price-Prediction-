@@ -405,39 +405,55 @@ function initMap() {
     }).addTo(mapInstance);
 }
 
-// Basic Dictionary mapping localities (simulated)
+// Extended Geo-Bank for all project locations
 const geoBank = {
-    'south mumbai': [18.9220, 72.8223],
+    'koregaon park': [18.5362, 73.8940],
+    'greater kailash': [28.5482, 77.2347],
+    'hauz khas': [28.5494, 77.2001],
+    'alipore': [22.5323, 88.3306],
+    'salt lake': [22.5851, 88.4236],
+    'gachibowli': [17.4401, 78.3489],
+    'poes garden': [13.0454, 80.2520],
+    'cyber city': [28.4951, 77.0878],
+    'defence colony': [28.5746, 77.2327],
+    'adyar': [13.0012, 80.2565],
+    'kalyani nagar': [18.5463, 73.9033],
+    'juhu': [19.1000, 72.8258],
     'bandra west': [19.0596, 72.8295],
     'koramangala': [12.9352, 77.6245],
+    'boat club': [13.0232, 80.2452],
+    'whitefield': [12.9698, 77.7500],
+    'hitec city': [17.4435, 78.3772],
     'jubilee hills': [17.4326, 78.4071],
-    'vasant vihar': [28.5562, 77.1625],
-    'adyar': [13.0012, 80.2565]
+    'powai': [19.1176, 72.9060],
+    'indiranagar': [12.9719, 77.6412],
+    'anna nagar': [13.0850, 80.2101],
+    'andheri west': [19.1363, 72.8276],
+    'dwarka': [28.5823, 77.0500],
+    'jayanagar': [12.9250, 77.5938],
+    'banjara hills': [17.4172, 78.4412],
+    'south mumbai': [18.9220, 72.8223],
+    'vasant vihar': [28.5562, 77.1625]
 };
 
 function updateMapLocation(locString) {
     if(!mapInstance) return;
     
-    // FIX: Leaflet needs the container to have a calculated height before it can draw tiles.
-    // Our CSS now enforces 300px, but we still invalidate twice to be absolutely sure.
+    // FIX: Ensure map knows its container size after potential layout shifts
     mapInstance.invalidateSize();
     
-    setTimeout(() => {
-        mapInstance.invalidateSize();
-    }, 600);
-    
-    const loc = locString.toLowerCase();
-    
-    // Try to find perfect dictionary match, or default to a random spread around India
+    const loc = locString.toLowerCase().trim();
     let coords = geoBank[loc];
+    
+    // Fallback: If not in bank, use a stable hash-based spread around India
     if(!coords) {
         const hash = loc.split('').reduce((a,b)=>{a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
-        const lat = 19 + (hash % 10);
-        const lng = 75 + (hash % 10);
+        const lat = 19 + ((hash % 100) / 10);
+        const lng = 75 + ((hash % 100) / 10);
         coords = [lat, lng];
     }
     
-    mapInstance.setView(coords, 13, {animate: true, duration: 2});
+    mapInstance.setView(coords, 14, {animate: true, duration: 2.5});
     
     if(currentMarker) {
         mapInstance.removeLayer(currentMarker);
