@@ -24,6 +24,7 @@ const state = {
 // INITIALIZATION
 // ──────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', () => {
+    initTheme();
     initNavbar();
     initSelectors();
     initForm();
@@ -58,12 +59,58 @@ function initTiltPhysics() {
 }
 
 // ──────────────────────────────────────────────
+// THEME MANAGEMENT (DARK/LIGHT)
+// ──────────────────────────────────────────────
+function initTheme() {
+    const toggle = document.getElementById('theme-toggle');
+    const html = document.documentElement;
+    
+    // Check saved theme
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    html.setAttribute('data-theme', savedTheme);
+    
+    toggle.addEventListener('click', () => {
+        const currentTheme = html.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        
+        html.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+        
+        // Update Map Layer to match theme if it exists
+        if(mapInstance) {
+            updateMapLayer(newTheme);
+        }
+    });
+}
+
+function updateMapLayer(theme) {
+    if(!mapInstance) return;
+    
+    // Clear existing tiles
+    mapInstance.eachLayer(layer => {
+        if(layer instanceof L.TileLayer) {
+            mapInstance.removeLayer(layer);
+        }
+    });
+    
+    const url = theme === 'dark' 
+        ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
+        : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+        
+    L.tileLayer(url, {
+        attribution: '&copy; CartoDB',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(mapInstance);
+}
+
+// ──────────────────────────────────────────────
 // NAVBAR SCROLL EFFECT
 // ──────────────────────────────────────────────
 function initNavbar() {
     const navbar = document.getElementById('navbar');
     window.addEventListener('scroll', () => {
-        navbar.classList.toggle('scrolled', window.scrollY > 30);
+        if(navbar) navbar.classList.toggle('scrolled', window.scrollY > 30);
     });
 }
 

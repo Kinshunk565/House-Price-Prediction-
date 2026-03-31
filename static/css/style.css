@@ -33,6 +33,26 @@
     --glow-text: 0 0 12px rgba(255, 255, 255, 0.6);
 }
 
+[data-theme="light"] {
+    --color-bg-base: #F5F5FA;
+    --color-bg-panel: rgba(255, 255, 255, 0.75);
+    --color-bg-alt: #FFFFFF;
+    
+    --color-text-bright: #000000;
+    --color-text-primary: #1A1A1A;
+    --color-text-secondary: #666666;
+    --color-text-dim: #999999;
+    
+    --color-accent: #000000;
+    --color-accent-dim: rgba(0, 0, 0, 0.1);
+    
+    --color-border: rgba(0, 0, 0, 0.1);
+    --color-border-glow: rgba(0, 0, 0, 0.2);
+    
+    --glow-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --glow-text: none;
+}
+
 /* ── Global Reset & Setup ── */
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -142,6 +162,23 @@ body {
 }
 
 .nav-link:hover { color: var(--color-text-bright); }
+
+/* Theme Toggle */
+.theme-toggle {
+    background: transparent;
+    border: 1px solid var(--color-border);
+    width: 40px; height: 40px;
+    display: flex; align-items: center; justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    color: var(--color-text-bright);
+    transition: var(--transition);
+}
+.theme-toggle:hover { border-color: var(--color-border-glow); box-shadow: var(--glow-shadow); }
+
+.sun-icon { display: none; }
+[data-theme="light"] .moon-icon { display: none; }
+[data-theme="light"] .sun-icon { display: block; }
 
 /* ═══════════════════════════════════════════════
    HERO SECTION
@@ -425,7 +462,13 @@ body {
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23FFF' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
     background-repeat: no-repeat; background-position: right 20px center;
 }
-.form-select option { background: #111; color: #FFF; }
+.form-select option { background: var(--color-bg-alt); color: var(--color-text-primary); }
+ 
+ [data-theme="light"] .market-map-container { filter: grayscale(0.5) contrast(1.1) brightness(1.1); }
+ [data-theme="light"] .bg-noise { opacity: 0.015; }
+ [data-theme="light"] .sphere-core { background: #000; box-shadow: 0 0 100px rgba(0,0,0,0.2); }
+ [data-theme="light"] .btn-primary { background: #000; color: #FFF; box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+ [data-theme="light"] .btn-primary:hover { box-shadow: 0 15px 30px rgba(0,0,0,0.2); }
 
 .btn-selector { display: flex; }
 .selector-btn {
