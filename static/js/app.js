@@ -69,14 +69,14 @@ function initTheme() {
     const savedTheme = localStorage.getItem('theme') || 'dark';
     html.setAttribute('data-theme', savedTheme);
     
+    // Update Map Layer to match theme if it exists
     toggle.addEventListener('click', () => {
-        const currentTheme = html.getAttribute('data-theme');
+        const currentTheme = document.documentElement.getAttribute('data-theme');
         const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
         
-        html.setAttribute('data-theme', newTheme);
+        document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         
-        // Update Map Layer to match theme if it exists
         if(mapInstance) {
             updateMapLayer(newTheme);
         }
@@ -94,12 +94,11 @@ function updateMapLayer(theme) {
     });
     
     const url = theme === 'dark' 
-        ? 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
-        : 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png';
+        ? 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+        : 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
         
     L.tileLayer(url, {
-        attribution: '&copy; CartoDB',
-        subdomains: 'abcd',
+        attribution: 'Esri &copy; StreetMap',
         maxZoom: 20
     }).addTo(mapInstance);
 }
@@ -386,17 +385,22 @@ async function exportDossier() {
 function initMap() {
     if(!document.getElementById('market-map')) return;
 
-    // Dark theme tiles (CartoDB Dark Matter)
-    mapInstance = L.map('market-map', {
-        zoomControl: false,
-        scrollWheelZoom: false,
-        doubleClickZoom: false,
-        dragging: false
-    }).setView([20.5937, 78.9629], 4); // Center of India
+    const theme = document.documentElement.getAttribute('data-theme') || 'dark';
 
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '&copy; CartoDB',
-        subdomains: 'abcd',
+    // Tile layers based on theme
+    const url = theme === 'dark' 
+        ? 'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}'
+        : 'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}';
+
+    mapInstance = L.map('market-map', {
+        zoomControl: true,
+        scrollWheelZoom: true,
+        doubleClickZoom: true,
+        dragging: true
+    }).setView([20.5937, 78.9629], 4);
+
+    L.tileLayer(url, {
+        attribution: 'Esri &copy; StreetMap',
         maxZoom: 20
     }).addTo(mapInstance);
 }

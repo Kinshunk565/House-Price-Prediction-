@@ -165,7 +165,7 @@ body {
 
 /* Theme Toggle */
 .theme-toggle {
-    background: transparent;
+    background: var(--color-bg-panel);
     border: 1px solid var(--color-border);
     width: 40px; height: 40px;
     display: flex; align-items: center; justify-content: center;
@@ -441,13 +441,19 @@ body {
 
 .glowing-border {
     position: relative;
-    background: rgba(0,0,0,0.4);
+    background: var(--color-bg-panel);
     border: 1px solid var(--color-border);
     transition: var(--transition);
+}
+[data-theme="light"] .glowing-border {
+    background: #FFF;
 }
 .glowing-border:focus-within {
     border-color: var(--color-border-glow);
     box-shadow: inset 0 0 10px rgba(255,255,255,0.05), 0 0 10px rgba(255,255,255,0.1);
+}
+[data-theme="light"] .glowing-border:focus-within {
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
 
 .form-input, .form-select {
@@ -475,9 +481,12 @@ body {
     flex: 1; padding: 14px 0;
     background: transparent; border: none;
     border-right: 1px solid var(--color-border);
-    color: var(--color-text-dim);
+    color: var(--color-text-secondary);
     font-family: var(--font-body); font-size: 1rem; font-weight: 600;
     cursor: pointer; transition: color 0.3s, background 0.3s;
+}
+[data-theme="light"] .selector-btn {
+    color: var(--color-text-primary);
 }
 .selector-btn:last-child { border-right: none; }
 .selector-btn:hover { color: var(--color-text-primary); }
@@ -503,6 +512,8 @@ body {
 }
 .cyber-label { font-size: 0.85rem; color: var(--color-text-secondary); text-transform: uppercase; letter-spacing: 0.1em; }
 .cyber-checkbox input:checked ~ .cyber-label { color: var(--color-text-bright); }
+[data-theme="light"] .cyber-box { border-color: #DDD; background: #FFF; }
+[data-theme="light"] .cyber-checkbox input:checked + .cyber-box { background: #000; border-color: #000; }
 
 .form-action { margin-top: 60px; }
 
@@ -578,7 +589,6 @@ body {
     width: 100%; 
     background: #111;
     border: 1px solid rgba(255,255,255,0.05); 
-    filter: contrast(1.2) sepia(0.2) hue-rotate(180deg) saturate(0.2); 
     position: relative;
     z-index: 10;
 }
