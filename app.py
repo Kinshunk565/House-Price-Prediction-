@@ -131,6 +131,10 @@ def predict():
                     'location': row['location'].upper()
                 })
 
+        # Calculate confidence range (±8%)
+        lower_bound = prediction * 0.92
+        upper_bound = prediction * 1.08
+
         return jsonify({
             'success': True,
             'predicted_price': round(float(prediction)),
