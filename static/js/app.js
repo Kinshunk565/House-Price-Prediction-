@@ -254,36 +254,63 @@ function renderComps(comps) {
 // ──────────────────────────────────────────────
 // PDF DOSSIER EXPORT
 // ──────────────────────────────────────────────
-function exportDossier() {
+function clearBackdropFilters(el) {
+    const original = new Map();
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_ELEMENT, null, false);
+    let node = walker.currentNode;
+    while(node) {
+        if(node.style) {
+            original.set(node, {
+                bf: node.style.backdropFilter,
+                wbf: node.style.webkitBackdropFilter,
+                bg: node.style.background,
+                bs: node.style.boxShadow,
+                ts: node.style.transition
+            });
+            node.style.setProperty('backdrop-filter', 'none', 'important');
+            node.style.setProperty('-webkit-backdrop-filter', 'none', 'important');
+            node.style.setProperty('box-shadow', 'none', 'important');
+            node.style.setProperty('transition', 'none', 'important');
+            
+            if (node.classList.contains('glass-panel') || node.classList.contains('glass-card')) {
+                node.style.setProperty('background', 'rgba(10, 10, 10, 1)', 'important');
+                node.style.setProperty('border', '1px solid #333', 'important');
+            }
+        }
+        node = walker.nextNode();
+    }
+}
+
+async function exportDossier() {
     const btn = document.getElementById('export-pdf-btn');
     const originalBtnText = btn.textContent;
     btn.textContent = "GENERATING PDF...";
     
-    const element = document.getElementById('result-card');
+    // We create a temporary, non-glassy version of the dashboard for the PDF
+    const dashboard = document.querySelector('.container.section-revealer');
+    const exportContainer = dashboard.cloneNode(true);
     
-    // EXTREME FIX: html2canvas fails with any backdrop-filter, gradients, or fixed background patterns.
-    // We temporarily strip EVERYTHING that could interfere.
-    const noise = document.querySelector('.bg-noise');
-    const mesh = document.querySelector('.bg-gradient-mesh');
-    if(noise) noise.style.display = 'none';
-    if(mesh) mesh.style.display = 'none';
+    // Cleanup the export container (remove buttons, form inputs, etc)
+    exportContainer.querySelectorAll('button, input, select, .nav-container').forEach(el => el.remove());
+    
+    // Enforce solid dark theme for everything in the PDF
+    exportContainer.style.background = '#050505';
+    exportContainer.style.width = '1000px';
+    exportContainer.style.position = 'absolute';
+    exportContainer.style.left = '-9999px';
+    exportContainer.style.top = '0';
+    exportContainer.style.color = '#FFFFFF';
+    
+    document.body.appendChild(exportContainer);
+    
+    // Strip all filters and shadows that break html2canvas
+    clearBackdropFilters(exportContainer);
+    
+    // Give the browser a moment to compute styles
+    await new Promise(r => setTimeout(r, 150));
 
-    const originalStyle = {
-        background: element.style.background,
-        backdropFilter: element.style.backdropFilter,
-        webkitBackdropFilter: element.style.webkitBackdropFilter,
-        borderRadius: element.style.borderRadius,
-        border: element.style.border
-    };
-    
-    // Apply "Solid Print Mode"
-    element.style.setProperty('background', '#0a0a0a', 'important');
-    element.style.setProperty('backdrop-filter', 'none', 'important');
-    element.style.setProperty('-webkit-backdrop-filter', 'none', 'important');
-    element.style.setProperty('border', '1px solid #444', 'important');
-    
     const opt = {
-        margin:       0.2,
+        margin:       0.1,
         filename:     'Valuation_Report_KGI.pdf',
         image:        { type: 'jpeg', quality: 1.0 },
         html2canvas:  { 
@@ -291,23 +318,18 @@ function exportDossier() {
             useCORS: true, 
             backgroundColor: '#050505',
             logging: false,
-            windowWidth: 1200
+            width: 1000
         },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
 
-    html2pdf().set(opt).from(element).save().then(() => {
+    html2pdf().set(opt).from(exportContainer).save().then(() => {
         btn.textContent = originalBtnText;
-        // Restore everything
-        if(noise) noise.style.display = 'block';
-        if(mesh) mesh.style.display = 'block';
-        
-        Object.keys(originalStyle).forEach(key => {
-            element.style[key] = originalStyle[key];
-        });
+        document.body.removeChild(exportContainer);
     }).catch(err => {
         console.error("PDF Export Error:", err);
         btn.textContent = "EXPORT FAILED";
+        if(document.body.contains(exportContainer)) document.body.removeChild(exportContainer);
     });
 }
 

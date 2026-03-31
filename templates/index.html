@@ -226,102 +226,39 @@
 
                 </div>
 
-                <!-- RESULT PANEL & MAP TOGGLE -->
-                <div class="result-map-column">
-                    <!-- RESULT PANEL -->
-                    <div class="predictor-result-wrapper glass-panel slide-left" id="result-card">
-                        <div class="panel-corners"></div>
-                        
-                        <!-- Default state -->
-                        <div class="result-placeholder" id="result-placeholder">
-                            <div class="hologram-ring"></div>
-                            <h3 class="glow-text">System Idle</h3>
-                            <p>Provide constraints to compute valuation.</p>
-                        </div>
+                </div>
+            </div>
 
-                        <!-- Result state (hidden initially) -->
-                        <div class="result-content hidden" id="result-content">
-                            <div class="result-top">
-                                <span class="result-label scan-line-anim">Estimated Value</span>
-                                <div class="price-display glow-text">
-                                    <span class="price-currency">₹</span>
-                                    <span class="price-amount" id="price-amount">0</span>
-                                </div>
-                            </div>
-
-                            <div class="confidence-interval">
-                                <div class="interval-header">
-                                    <span>Variance (±1.5%)</span>
-                                    <span class="interval-tag">High Fidelity</span>
-                                </div>
-                                <div class="interval-bar">
-                                    <div class="interval-track"></div>
-                                    <div class="interval-fill" id="range-fill"></div>
-                                    <div class="interval-marker" id="range-marker"></div>
-                                </div>
-                                <div class="interval-labels glow-text">
-                                    <span id="price-low">₹0</span>
-                                    <span id="price-high">₹0</span>
-                                </div>
-                            </div>
-
-                            <div class="data-ledger">
-                                <div class="ledger-row">
-                                    <span class="ledger-label">Vector ID</span>
-                                    <span class="ledger-value glow-text" id="detail-location">—</span>
-                                </div>
-                                <div class="ledger-row">
-                                    <span class="ledger-label">Scale</span>
-                                    <span class="ledger-value glow-text" id="detail-area">—</span>
-                                </div>
-                                <div class="ledger-row">
-                                    <span class="ledger-label">Topology</span>
-                                    <span class="ledger-value glow-text" id="detail-config">—</span>
-                                </div>
-                                <div class="ledger-row">
-                                    <span class="ledger-label">Chronology</span>
-                                    <span class="ledger-value glow-text" id="detail-age">—</span>
-                                </div>
-                            </div>
-
-                            <div class="action-buttons-grid">
-                                <button class="btn btn-outline btn-full-width mt-4" onclick="resetForm()">
-                                    Reset Hyperparameters
-                                </button>
-                                <button class="btn btn-primary btn-glow btn-full-width mt-4" id="export-pdf-btn" onclick="exportDossier()">
-                                    Download PDF Dossier
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-
+            <!-- PREDICTOR GRID ROW 2: ANALYTICS DASHBOARD -->
+            <div class="analytics-dashboard mt-gap hidden" id="analytics-dash">
+                <div class="analytics-grid">
                     <!-- INTERACTIVE MARKET MAP -->
-                    <div class="map-wrapper glass-panel slide-left mt-gap">
+                    <div class="map-wrapper glass-panel fade-up">
                         <div class="panel-corners"></div>
                         <h4 class="mini-title glow-text">Geospatial Overlay</h4>
+                        <p class="section-desc">Vector location pinpointing on the neural market grid.</p>
                         <div id="market-map" class="market-map-container"></div>
+                    </div>
+
+                    <!-- XAI BREAKDOWN -->
+                    <div class="xai-wrapper glass-panel fade-up">
+                        <div class="panel-corners"></div>
+                        <h4 class="mini-title glow-text">Valuation Breakdown (XAI)</h4>
+                        <p class="section-desc">Algorithmic Base-Multiplier attribution via localized Ridge approximation.</p>
+                        <div id="xai-waterfall" class="xai-waterfall-container"></div>
+                    </div>
+
+                    <!-- MARKET COMPARABLES -->
+                    <div class="comps-wrapper glass-panel fade-up">
+                        <div class="panel-corners"></div>
+                        <h4 class="mini-title glow-text">Market Comparables (KNN)</h4>
+                        <p class="section-desc">Matching historical topological instances via Euclidean distance.</p>
+                        <div id="comps-grid" class="comps-grid-container"></div>
                     </div>
                 </div>
             </div>
-
-            <!-- PREDICTOR GRID ROW 2: XAI & COMPS -->
-            <div class="predictor-grid-bottom mt-gap hidden" id="analytics-dash">
-                <!-- XAI BREAKDOWN -->
-                <div class="xai-wrapper glass-panel fade-up">
-                    <div class="panel-corners"></div>
-                    <h4 class="mini-title glow-text">Valuation Breakdown (XAI)</h4>
-                    <p class="section-desc">Algorithmic Base-Multiplier attribution via localized Ridge approximation.</p>
-                    <div id="xai-waterfall" class="xai-waterfall-container"></div>
-                </div>
-
-                <!-- MARKET COMPARABLES -->
-                <div class="comps-wrapper glass-panel fade-up">
-                    <div class="panel-corners"></div>
-                    <h4 class="mini-title glow-text">Market Comparables (KNN)</h4>
-                    <p class="section-desc">Matching historical topological instances via Euclidean distance.</p>
-                    <div id="comps-grid" class="comps-grid-container"></div>
-                </div>
-            </div>
+        </div>
+    </section>
         </div>
     </section>
 
