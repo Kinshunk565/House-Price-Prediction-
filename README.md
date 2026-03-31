@@ -8,6 +8,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Live on Render](https://img.shields.io/badge/Live_Demo-Render-46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://kinshuk-intelligence.onrender.com/)
 
 </div>
 
@@ -87,7 +88,10 @@ python app.py
 ```
 
 ### 5. Access the Terminal
-Open your web browser and navigate to the local server address:  
+You can access the live, publicly deployed model here:  
+👉 **[https://kinshuk-intelligence.onrender.com/](https://kinshuk-intelligence.onrender.com/)**
+
+Or if you are running it locally on your machine, navigate to:  
 👉 **http://localhost:5000**
 
 <br/>
