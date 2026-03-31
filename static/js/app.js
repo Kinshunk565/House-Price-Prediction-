@@ -256,29 +256,58 @@ function renderComps(comps) {
 // ──────────────────────────────────────────────
 function exportDossier() {
     const btn = document.getElementById('export-pdf-btn');
+    const originalBtnText = btn.textContent;
     btn.textContent = "GENERATING PDF...";
     
     const element = document.getElementById('result-card');
     
-    // TEMPORARY FIX: html2canvas notoriously struggles with backdrop-filters and renders pure black
+    // EXTREME FIX: html2canvas fails with any backdrop-filter, gradients, or fixed background patterns.
+    // We temporarily strip EVERYTHING that could interfere.
+    const noise = document.querySelector('.bg-noise');
+    const mesh = document.querySelector('.bg-gradient-mesh');
+    if(noise) noise.style.display = 'none';
+    if(mesh) mesh.style.display = 'none';
+
+    const originalStyle = {
+        background: element.style.background,
+        backdropFilter: element.style.backdropFilter,
+        webkitBackdropFilter: element.style.webkitBackdropFilter,
+        borderRadius: element.style.borderRadius,
+        border: element.style.border
+    };
+    
+    // Apply "Solid Print Mode"
     element.style.setProperty('background', '#0a0a0a', 'important');
     element.style.setProperty('backdrop-filter', 'none', 'important');
     element.style.setProperty('-webkit-backdrop-filter', 'none', 'important');
+    element.style.setProperty('border', '1px solid #444', 'important');
     
     const opt = {
-        margin:       0.3,
-        filename:     'KGI_Valuation_Dossier.pdf',
-        image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505', logging: false, removeContainer: true },
+        margin:       0.2,
+        filename:     'Valuation_Report_KGI.pdf',
+        image:        { type: 'jpeg', quality: 1.0 },
+        html2canvas:  { 
+            scale: 2, 
+            useCORS: true, 
+            backgroundColor: '#050505',
+            logging: false,
+            windowWidth: 1200
+        },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
 
     html2pdf().set(opt).from(element).save().then(() => {
-        btn.textContent = "DOWNLOAD PDF DOSSIER";
-        // Restore glassmorphism
-        element.style.removeProperty('background');
-        element.style.removeProperty('backdrop-filter');
-        element.style.removeProperty('-webkit-backdrop-filter');
+        btn.textContent = originalBtnText;
+        // Restore everything
+        if(noise) noise.style.display = 'block';
+        if(mesh) mesh.style.display = 'block';
+        
+        Object.keys(originalStyle).forEach(key => {
+            element.style[key] = originalStyle[key];
+        });
+    }).catch(err => {
+        console.error("PDF Export Error:", err);
+        btn.textContent = "EXPORT FAILED";
     });
 }
 
@@ -316,10 +345,13 @@ const geoBank = {
 function updateMapLocation(locString) {
     if(!mapInstance) return;
     
-    // FIX: Wait for CSS transition / DOM reveal to complete before recalculating map size, otherwise it stays invisible height 0
+    // FIX: Leaflet needs the container to have a calculated height before it can draw tiles.
+    // Our CSS now enforces 300px, but we still invalidate twice to be absolutely sure.
+    mapInstance.invalidateSize();
+    
     setTimeout(() => {
         mapInstance.invalidateSize();
-    }, 400);
+    }, 600);
     
     const loc = locString.toLowerCase();
     
