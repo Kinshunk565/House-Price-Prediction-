@@ -258,20 +258,29 @@ function exportDossier() {
     const btn = document.getElementById('export-pdf-btn');
     btn.textContent = "GENERATING PDF...";
     
-    // We clone the whole predictor container for the screenshot
     const element = document.getElementById('result-card');
     
-    // Configure html2pdf
+    // TEMPORARY FIX: html2canvas hates glassmorphism (backdrop-filter) and renders it black.
+    // We add a solid background class temporarily just for the PDF rendering.
+    const originalBg = element.style.background;
+    const originalFilter = element.style.backdropFilter;
+    
+    element.style.background = '#0a0a0a';
+    element.style.backdropFilter = 'none';
+    
     const opt = {
         margin:       0.5,
         filename:     'KGI_Valuation_Dossier.pdf',
         image:        { type: 'jpeg', quality: 0.98 },
-        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505' },
+        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505', logging: false },
         jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
     };
 
     html2pdf().set(opt).from(element).save().then(() => {
         btn.textContent = "DOWNLOAD PDF DOSSIER";
+        // Restore glassmorphism
+        element.style.background = originalBg;
+        element.style.backdropFilter = originalFilter;
     });
 }
 
@@ -309,12 +318,14 @@ const geoBank = {
 function updateMapLocation(locString) {
     if(!mapInstance) return;
     
+    // FIX: Leaflet occasionally doesn't draw tiles if its container changed size or was hidden during init
+    mapInstance.invalidateSize();
+    
     const loc = locString.toLowerCase();
     
     // Try to find perfect dictionary match, or default to a random spread around India
     let coords = geoBank[loc];
     if(!coords) {
-        // Procedurally generate a lat/lng for missing cities to make the demo feel alive
         const hash = loc.split('').reduce((a,b)=>{a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
         const lat = 19 + (hash % 10);
         const lng = 75 + (hash % 10);
@@ -330,8 +341,8 @@ function updateMapLocation(locString) {
     // Neon Red Marker using custom DIV icon
     const neonIcon = L.divIcon({
         className: 'custom-neon-marker',
-        html: '<div style="width: 12px; height: 12px; background: #fff; border-radius: 50%; box-shadow: 0 0 15px 5px rgba(255,255,255,0.8); border: 2px solid cyan;"></div>',
-        iconSize: [12, 12]
+        html: '<div style="width: 14px; height: 14px; background: #fff; border-radius: 50%; box-shadow: 0 0 20px 8px rgba(0, 255, 255, 0.9); border: 2px solid cyan;"></div>',
+        iconSize: [14, 14]
     });
 
     currentMarker = L.marker(coords, {icon: neonIcon}).addTo(mapInstance);
