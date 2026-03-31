@@ -22,13 +22,14 @@ By applying **high-dimensional Random Forest topology** across 1,200 curated pro
 
 ---
 
-## ✨ Key Features
+## ✨ Advanced Capabilities
 
-- **🎯 High-Fidelity Machine Learning:** Built on a robust `RandomForestRegressor` trained on 15 dimensional vectors (Area, Age, Location, Bathrooms, etc.) securing up to **~85% R² variance accuracy**.
-- **🌌 Futuristic Dark-Mode UI:** A hand-crafted, fully responsive web interface featuring deep black canvases, frosted glass panels (`backdrop-filter`), and glowing neon-white accents.
-- **🎬 Cinematic Animations:** Immersive user experience with 3D hovering cards (`vanilla-tilt.js`), slot-machine price counters, intersection-observer wipe-ins, and dynamic scanner borders.
-- **🗺️ Extensive Geographic Tracking:** Supports predictive modeling across **25+ premium Indian hubs** including *South Mumbai, Vasant Vihar, Jubilee Hills, Koramangala, Boat Club,* and *Koregaon Park*.
-- **📊 Real-Time Matrix Telemetry:** The interface dynamically exposes underlying algorithm statistics in real-time, displaying MAE, RMSE, Cross-Validation Scores, and dynamic Feature Importance tracking.
+- **🎯 Dimensional Neural Matrix:** Powered by a high-dimensional `RandomForestRegressor` securing **~72% R² convergence** and **₹7M RMSE stability** over a corpus of 1,200 curated property records.
+- **🗺️ Geospatial Analytical Engine:** Integrates a real-time **Esri World Infrastructure Map**. Dynamic tracking across **27+ premium Indian hubs** (South Mumbai, Jubilee Hills, Koramangala) with synchronized Dark/Light mode tile rendering.
+- **🌓 Adaptive Theme Architecture:** A high-precision UX featuring a **Monochromatic Dark/Light toggle**. State persists via `localStorage`, featuring customized CSS variable sets for both modes.
+- **📄 Automated Valuation Dossier:** Integrated PDF export engine (`html2pdf.js`). Generates a clean, filter-stripped architectural report including price intervals and Market Comparable (KNN) results.
+- **🎬 Cinematic Interface:** Immersive glassmorphic UI featuring `vanilla-tilt.js` 3D physics, slot-machine price counters, and hardware-accelerated intersection reveals.
+- **📊 Real-Time Matrix Telemetry:** Dynamic exposure of model architecture metrics, including **MAE, RMSE, and Cross-Validation variance**, alongside interactive Feature Importance tracking.
 
 <br/>
 
