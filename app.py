@@ -21,10 +21,17 @@ CORS(app)
 print("🔄 Loading model artifacts...")
 
 rf_model = joblib.load('models/random_forest.joblib')
+lr_model = joblib.load('models/linear_regression.joblib') # For XAI Breakdown
 scaler = joblib.load('models/scaler.joblib')
 furnishing_encoder = joblib.load('models/furnishing_encoder.joblib')
 location_encoder = joblib.load('models/location_encoder.joblib')
 feature_cols = joblib.load('models/feature_cols.joblib')
+
+# Load the historical dataset for Market Computables (KNN simulation)
+try:
+    historical_df = pd.read_csv('data/housing.csv')
+except:
+    historical_df = pd.DataFrame() # Fallback
 
 with open('models/metadata.json', 'r') as f:
     metadata = json.load(f)
@@ -87,9 +94,42 @@ def predict():
         # Predict
         prediction = rf_model.predict(feature_scaled)[0]
 
-        # Calculate confidence range (±8%)
-        lower_bound = prediction * 0.92
-        upper_bound = prediction * 1.08
+        # ──────────────────────────────────────────────
+        # XAI (Explainable AI) Breakdown 
+        # ──────────────────────────────────────────────
+        # We use the Linear Regression model intercepts and coefficients to proxy the Black-Box Random Forest for the UI
+        base_price = float(lr_model.intercept_)
+        waterfall = [{'feature': 'Base Value', 'impact': round(base_price)}]
+        
+        for idx, col in enumerate(feature_cols):
+            val_impact = float(feature_scaled[0][idx] * lr_model.coef_[idx])
+            if abs(val_impact) > 500000: # Only show significant impacts (>5L)
+                waterfall.append({
+                    'feature': col,
+                    'impact': round(val_impact)
+                })
+
+        # ──────────────────────────────────────────────
+        # MARKET COMPARABLES (Comps)
+        # ──────────────────────────────────────────────
+        comps = []
+        if not historical_df.empty:
+            # Filter to same location and similar size, then sort by absolute area distance
+            loc_df = historical_df[historical_df['location'] == location].copy()
+            if loc_df.empty:
+                loc_df = historical_df.copy() # fallback to all if location anomaly
+            
+            loc_df['area_dist'] = abs(loc_df['area'] - area)
+            loc_df = loc_df.sort_values(by='area_dist').head(3)
+            
+            for _, row in loc_df.iterrows():
+                comps.append({
+                    'price': f"₹{row['price']:,.0f}",
+                    'area': f"{row['area']} Sq.Ft",
+                    'bedrooms': row['bedrooms'],
+                    'bathrooms': row['bathrooms'],
+                    'location': row['location'].upper()
+                })
 
         return jsonify({
             'success': True,
@@ -102,7 +142,9 @@ def predict():
             'formatted_range': {
                 'low': f"₹{lower_bound:,.0f}",
                 'high': f"₹{upper_bound:,.0f}",
-            }
+            },
+            'xai_breakdown': waterfall,
+            'comparables': comps
         })
 
     except Exception as e:

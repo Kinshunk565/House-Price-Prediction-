@@ -8,6 +8,9 @@
 // CONSTANTS & STATE
 // ──────────────────────────────────────────────
 const API_BASE = '';
+let mapInstance = null; // Global map instance
+let currentMarker = null;
+
 const state = {
     bedrooms: 3,
     bathrooms: 2,
@@ -29,6 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initTiltPhysics();
     loadLocations();
     loadModelInfo();
+    setTimeout(initMap, 1000); // Initialize map slightly delayed
 });
 
 // ──────────────────────────────────────────────
@@ -134,14 +138,16 @@ async function submitPrediction() {
 }
 
 // ──────────────────────────────────────────────
-// SHOW PREDICTION RESULT (SLOT ANIMATION)
+// SHOW PREDICTION RESULT (SLOT ANIMATION, MAP, XAI, COMPS)
 // ──────────────────────────────────────────────
 function showResult(data, payload) {
     const placeholder = document.getElementById('result-placeholder');
     const content = document.getElementById('result-content');
+    const dash = document.getElementById('analytics-dash');
 
     placeholder.classList.add('hidden');
     content.classList.remove('hidden');
+    dash.classList.remove('hidden');
 
     // Slot Machine Price Counter
     animatePriceSlot(document.getElementById('price-amount'), data.predicted_price);
@@ -161,21 +167,174 @@ function showResult(data, payload) {
     document.getElementById('detail-config').textContent = `${payload.bedrooms} BR, ${payload.bathrooms} BA`;
     document.getElementById('detail-age').textContent = payload.property_age === 0 ? 'NEURAL INIT' : `T-${payload.property_age} Cycles`;
 
-    // Scroll to result on mobile
+    // Render Extras
+    renderXAI(data.xai_breakdown);
+    renderComps(data.comparables);
+    updateMapLocation(payload.location);
+
+    // Scroll to result
     if (window.innerWidth < 1024) {
         document.getElementById('result-card').scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
 }
 
 function resetForm() {
-    const placeholder = document.getElementById('result-placeholder');
-    const content = document.getElementById('result-content');
-
-    content.classList.add('hidden');
-    placeholder.classList.remove('hidden');
-
-    // Reset range scanner
+    document.getElementById('result-content').classList.add('hidden');
+    document.getElementById('analytics-dash').classList.add('hidden');
+    document.getElementById('result-placeholder').classList.remove('hidden');
     document.getElementById('range-fill').style.width = '0%';
+}
+
+// ──────────────────────────────────────────────
+// RENDER XAI / COMPARABLES
+// ──────────────────────────────────────────────
+function renderXAI(waterfall) {
+    const container = document.getElementById('xai-waterfall');
+    container.innerHTML = '';
+    
+    if(!waterfall) return;
+
+    // Get max absolute impact for scaling bars
+    const maxImpact = Math.max(...waterfall.map(item => Math.abs(item.impact)));
+
+    waterfall.forEach((item, idx) => {
+        const isPos = item.impact >= 0;
+        const width = item.feature === 'Base Value' ? 100 : (Math.abs(item.impact) / maxImpact) * 100;
+        
+        const row = document.createElement('div');
+        row.className = 'waterfall-row';
+        row.style.animation = `fadeInUp 0.5s ease forwards ${idx * 0.1}s`;
+        row.style.opacity = '0';
+        
+        row.innerHTML = `
+            <span class="wf-feature">${formatFeatureName(item.feature)}</span>
+            <div class="wf-bar-wrap" style="position: relative;">
+                <div class="wf-bar ${isPos ? 'positive' : 'negative'}" style="width: 0%;" data-w="${width}"></div>
+            </div>
+            <span class="wf-impact ${isPos ? 'positive' : 'negative'}">
+                ${isPos ? '+' : '-'}₹${formatNum(Math.abs(item.impact))}
+            </span>
+        `;
+        
+        container.appendChild(row);
+        
+        // Animate bar width
+        setTimeout(() => {
+            row.querySelector('.wf-bar').style.width = width + '%';
+        }, 300 + (idx * 100));
+    });
+}
+
+function renderComps(comps) {
+    const grid = document.getElementById('comps-grid');
+    grid.innerHTML = '';
+    
+    if(!comps || comps.length === 0) {
+        grid.innerHTML = '<p style="color: grey; font-size: 0.8rem; text-transform:uppercase;">No perfect dimensional matches found.</p>';
+        return;
+    }
+
+    comps.forEach((comp, idx) => {
+        const row = document.createElement('div');
+        row.className = 'comp-card';
+        row.style.animation = `fadeInUp 0.5s ease forwards ${idx * 0.15}s`;
+        row.style.opacity = '0';
+        
+        row.innerHTML = `
+            <div class="comp-main">
+                <span class="comp-price glow-text">${comp.price}</span>
+                <span class="comp-details">${comp.location} // ${comp.area} // ${comp.bedrooms} BR</span>
+            </div>
+            <div style="font-size:0.6rem; color:grey; border:1px solid grey; padding: 2px 6px;">KNN MATCH</div>
+        `;
+        grid.appendChild(row);
+    });
+}
+
+// ──────────────────────────────────────────────
+// PDF DOSSIER EXPORT
+// ──────────────────────────────────────────────
+function exportDossier() {
+    const btn = document.getElementById('export-pdf-btn');
+    btn.textContent = "GENERATING PDF...";
+    
+    // We clone the whole predictor container for the screenshot
+    const element = document.getElementById('result-card');
+    
+    // Configure html2pdf
+    const opt = {
+        margin:       0.5,
+        filename:     'KGI_Valuation_Dossier.pdf',
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { scale: 2, useCORS: true, backgroundColor: '#050505' },
+        jsPDF:        { unit: 'in', format: 'letter', orientation: 'portrait' }
+    };
+
+    html2pdf().set(opt).from(element).save().then(() => {
+        btn.textContent = "DOWNLOAD PDF DOSSIER";
+    });
+}
+
+// ──────────────────────────────────────────────
+// INTERACTIVE MAP (Leaflet)
+// ──────────────────────────────────────────────
+function initMap() {
+    if(!document.getElementById('market-map')) return;
+
+    // Dark theme tiles (CartoDB Dark Matter)
+    mapInstance = L.map('market-map', {
+        zoomControl: false,
+        scrollWheelZoom: false,
+        doubleClickZoom: false,
+        dragging: false
+    }).setView([20.5937, 78.9629], 4); // Center of India
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; CartoDB',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(mapInstance);
+}
+
+// Basic Dictionary mapping localities (simulated)
+const geoBank = {
+    'south mumbai': [18.9220, 72.8223],
+    'bandra west': [19.0596, 72.8295],
+    'koramangala': [12.9352, 77.6245],
+    'jubilee hills': [17.4326, 78.4071],
+    'vasant vihar': [28.5562, 77.1625],
+    'adyar': [13.0012, 80.2565]
+};
+
+function updateMapLocation(locString) {
+    if(!mapInstance) return;
+    
+    const loc = locString.toLowerCase();
+    
+    // Try to find perfect dictionary match, or default to a random spread around India
+    let coords = geoBank[loc];
+    if(!coords) {
+        // Procedurally generate a lat/lng for missing cities to make the demo feel alive
+        const hash = loc.split('').reduce((a,b)=>{a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);
+        const lat = 19 + (hash % 10);
+        const lng = 75 + (hash % 10);
+        coords = [lat, lng];
+    }
+    
+    mapInstance.setView(coords, 13, {animate: true, duration: 2});
+    
+    if(currentMarker) {
+        mapInstance.removeLayer(currentMarker);
+    }
+    
+    // Neon Red Marker using custom DIV icon
+    const neonIcon = L.divIcon({
+        className: 'custom-neon-marker',
+        html: '<div style="width: 12px; height: 12px; background: #fff; border-radius: 50%; box-shadow: 0 0 15px 5px rgba(255,255,255,0.8); border: 2px solid cyan;"></div>',
+        iconSize: [12, 12]
+    });
+
+    currentMarker = L.marker(coords, {icon: neonIcon}).addTo(mapInstance);
 }
 
 // ──────────────────────────────────────────────
